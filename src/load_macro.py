@@ -94,6 +94,7 @@ def add_features(levels: pd.DataFrame) -> pd.DataFrame:
     df["gdp_yoy"] = df["gdp"].pct_change(4, fill_method=None) * 100
     df["hpi_yoy"] = df["hpi"].pct_change(4, fill_method=None) * 100
     df["d_unemp_l1"] = df["d_unemp"].shift(1)
+    df["hpi_yoy_l1"] = df["hpi_yoy"].shift(1)
     df["hpi_yoy_l2"] = df["hpi_yoy"].shift(2)
     df["rate_l2"] = df["policy_rate"].shift(2)
     return df

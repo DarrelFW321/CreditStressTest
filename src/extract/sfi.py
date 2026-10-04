@@ -43,7 +43,17 @@ def _quarter(cell) -> tuple[int, int] | None:
     return (2000 + y if y < 100 else y, int(m.group(1)))
 
 
-def read_sheet(ws, max_rows: int = 250, label_cols: int = 5) -> Sheet:
+def _number(c, pct_strings: bool) -> float | None:
+    if isinstance(c, (int, float)) and not isinstance(c, bool):
+        return float(c)
+    if pct_strings and isinstance(c, str):
+        m = re.match(r"^\s*(-?\d+(?:\.\d+)?)\s*%\s*$", c)
+        if m:
+            return float(m.group(1)) / 100
+    return None
+
+
+def read_sheet(ws, max_rows: int = 250, label_cols: int = 5, pct_strings: bool = False) -> Sheet:
     raw = list(ws.iter_rows(max_row=max_rows, values_only=True))
     colmap = {}
     for r in raw[:15]:
@@ -60,16 +70,17 @@ def read_sheet(ws, max_rows: int = 250, label_cols: int = 5) -> Sheet:
         label = next((c for c in r[:label_cols] if isinstance(c, str) and c.strip()), None)
         if label is None:
             label = ""
-        vals = {q: float(r[j]) for j, q in colmap.items()
-                if j < len(r) and isinstance(r[j], (int, float)) and not isinstance(r[j], bool)}
+        vals = {q: v for j, q in colmap.items()
+                if j < len(r) and (v := _number(r[j], pct_strings)) is not None}
         rows.append(Row(i, clean_label(label), vals))
     head = " ".join(str(c) for r in raw[:6] for c in r if isinstance(c, str))
     return Sheet(ws.title, head.upper(), rows)
 
 
-def load(path: Path) -> list[Sheet]:
+def load(path: Path, pct_strings: bool = False) -> list[Sheet]:
+    """pct_strings: also read text cells like "13.4%" (as 0.134); some banks store ratios as text."""
     wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
-    return [read_sheet(ws) for ws in wb.worksheets]
+    return [read_sheet(ws, pct_strings=pct_strings) for ws in wb.worksheets]
 
 
 def find_sheets(sheets: list[Sheet], *must: str, anywhere: bool = False) -> list[Sheet]:

@@ -4,8 +4,8 @@ Static balance sheet: loan balances held at jump-off levels. Each quarter,
     pre-tax income = PPNR * (1 - haircut) - Canadian credit losses - other PCL
     CET1_t = CET1_{t-1} + pre-tax * (1 - tax) - dividends
     RWA_t  = RWA_{t-1} * (1 + migration)
-"Other PCL" (U.S. / international, out of scope) is held at its trailing
-4-quarter run rate so that total-bank PPNR is not set against Canadian losses only.
+"Other PCL" (U.S. / international, out of scope) starts at its trailing 4-quarter run
+rate and is stressed in proportion to the bank's Canadian losses (scenario / base).
 """
 import pandas as pd
 
@@ -72,24 +72,33 @@ def combine(reg: pd.DataFrame, vas: pd.DataFrame, method: str = "average") -> pd
     return m[keys + ["gross_loans", "loss_bps", "loss"]]
 
 
+def other_pcl_multiplier(loss: float, base_loss: float) -> float:
+    """Stress non-Canadian PCL like the bank's Canadian book (decisions.md #13): scenario / base losses."""
+    if not config.STRESS_OTHER_PCL or base_loss <= 0:
+        return 1.0
+    return max(loss / base_loss, 1.0)
+
+
 def capital_path(losses: pd.DataFrame, cap: pd.DataFrame, scenario: str) -> pd.DataFrame:
     haircut = config.PPNR_HAIRCUT[scenario]
     growth = config.RWA_GROWTH_PER_Q[scenario]
     sub = losses[losses["scenario"] == scenario]
     by_q = sub.groupby(["bank", "quarter"])["loss"].sum()
+    base = losses[losses["scenario"] == "base"].groupby(["bank", "quarter"])["loss"].sum()
     rows = []
     for bank, c in cap.iterrows():
         cet1, rwa = c.cet1_capital, c.rwa
         for q in sorted(sub["quarter"].unique()):
             loss = by_q.get((bank, q), 0.0)
             ppnr = c.ppt_earnings * (1 - haircut)
-            pretax = ppnr - loss - c.pcl_other
+            other = c.pcl_other * other_pcl_multiplier(loss, base.get((bank, q), loss))
+            pretax = ppnr - loss - other
             net = pretax * (1 - config.TAX_RATE)
             divs = c.common_dividends if config.PAY_DIVIDENDS else 0.0
             cet1 += net - divs
             rwa *= 1 + growth
             rows.append({"scenario": scenario, "bank": bank, "quarter": q, "ppnr": ppnr,
-                         "credit_loss": loss, "other_pcl": c.pcl_other, "net_income": net,
+                         "credit_loss": loss, "other_pcl": other, "net_income": net,
                          "dividends": divs, "cet1_capital": cet1, "rwa": rwa, "cet1_ratio": cet1 / rwa})
     return pd.DataFrame(rows)
 
@@ -108,6 +117,7 @@ def summarize(path: pd.DataFrame, cap: pd.DataFrame, losses: pd.DataFrame) -> pd
             "buffer_vs_floor_bp": (low.cet1_ratio - config.CET1_REGULATORY_FLOOR) * 1e4,
             "cum_loss": cum.sum(),
             **{f"loss_{p}": cum.get(p, 0.0) for p in config.PORTFOLIOS},
+            "loss_non_canadian": g["other_pcl"].sum(),
         })
     return pd.DataFrame(rows)
 
@@ -162,8 +172,8 @@ def run(models, scenarios, panel, capital, macro, sigma_u, method="average") -> 
 def rank(summary: pd.DataFrame, scenario: str = "stagflation") -> pd.DataFrame:
     s = summary[summary["scenario"] == scenario].sort_values("drawdown_bp", ascending=False)
     s = s.assign(rank=range(1, len(s) + 1), name=s["bank"].map(config.BANK_NAMES))
-    shares = s[[f"loss_{p}" for p in config.PORTFOLIOS]].div(s["cum_loss"], axis=0)
-    s["main_driver"] = shares.idxmax(axis=1).str.replace("loss_", "")
+    parts = s[[f"loss_{p}" for p in config.PORTFOLIOS] + ["loss_non_canadian"]]
+    s["main_driver"] = parts.idxmax(axis=1).str.replace("loss_", "").str.replace("_", "-")
     return s.set_index("rank")
 
 
@@ -184,4 +194,4 @@ def ranking_by_method(out: dict, scenario: str = "stagflation") -> pd.DataFrame:
     for m in ["regression", "vasicek", "average"]:
         r = rank(out[f"summary_{m}"], scenario)
         cols[m] = r["bank"].tolist()
-    return pd.DataFrame(cols, index=range(1, len(config.BANKS) + 1))
+    return pd.DataFrame(cols, index=range(1, len(cols["average"]) + 1))

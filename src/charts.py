@@ -4,6 +4,7 @@ Colors follow a validated categorical order: each bank keeps its slot across
 every chart, so identity never depends on rank or on which banks are shown.
 """
 import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
 
 from . import config
@@ -100,12 +101,17 @@ def cet1_waterfall(bridges: dict[str, pd.Series], scenario: str, name="cet1_wate
     """One small-multiple waterfall per bank: start -> flows -> stressed low (bp of RWA)."""
     banks = [b for b in config.BANKS if b in bridges]
     fig, axes = plt.subplots(2, 3, figsize=(13, 7), sharey=True)
+    # Shared y-axis: the range must cover every bank, not just the last one drawn.
+    lo, hi = np.inf, -np.inf
+    for bank in banks:
+        br = bridges[bank] / 100
+        levels = br.drop(["start", "low"]).cumsum() + br["start"]
+        lo = min(lo, levels.min(), br["low"], config.CET1_OSFI_EXPECTATION * 100)
+        hi = max(hi, levels.max(), br["start"])
+    lo, hi = lo - 1, hi + 0.6
     for ax, bank in zip(axes.flat, banks):
         br = bridges[bank] / 100  # bp -> %
         labels = list(br.index)
-        levels = br.drop(["start", "low"]).cumsum() + br["start"]
-        lo = min(levels.min(), br["low"], config.CET1_OSFI_EXPECTATION * 100) - 1
-        hi = max(levels.max(), br["start"]) + 0.6
         level = 0.0
         for i, (k, v) in enumerate(br.items()):
             if k in ("start", "low"):

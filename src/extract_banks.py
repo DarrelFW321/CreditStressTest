@@ -11,11 +11,11 @@ import sys
 import pandas as pd
 
 from . import config
-from .extract import rbc
+from .extract import bmo, bns, cibc, nbc, rbc, td
 from .load_banks import CAPITAL_FILE, PCL_FILE
 
 PACKAGES = config.DATA_RAW / "banks" / "packages"
-EXTRACTORS = {"RY": rbc.extract}
+EXTRACTORS = {"RY": rbc.extract, "CM": cibc.extract, "TD": td.extract, "BNS": bns.extract, "NBC": nbc.extract, "BMO": bmo.extract}
 
 
 def _replace(path, new: pd.DataFrame, banks: list[str]) -> None:

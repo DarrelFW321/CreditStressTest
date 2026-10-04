@@ -40,16 +40,19 @@ FRED_HPI = "QCAN628BIS"  # BIS residential property prices, Canada (nominal)
 # --- Regression (satellite model) -------------------------------------------
 # Candidate regressors and the sign economic theory requires.
 REGRESSORS = {
+    "d_unemp": +1,  # q/q change in unemployment (pp), same quarter (IFRS 9 provisions on the outlook)
     "d_unemp_l1": +1,  # q/q change in unemployment (pp), lag 1
     "gdp_yoy": -1,  # real GDP growth y/y (%), contemporaneous
+    "hpi_yoy_l1": -1,  # house price growth y/y (%), lag 1
     "hpi_yoy_l2": -1,  # house price growth y/y (%), lag 2
     "rate_l2": +1,  # overnight rate level (%), lag 2
 }
 # Portfolio-specific candidates (PRD: 3-4 macro variables per portfolio).
+# Final specification from the lag search (decisions.md #22).
 PORTFOLIO_REGRESSORS = {
-    "mortgage": ["d_unemp_l1", "hpi_yoy_l2", "rate_l2"],
-    "consumer": ["d_unemp_l1", "gdp_yoy", "rate_l2"],
-    "business": ["d_unemp_l1", "gdp_yoy", "rate_l2"],
+    "mortgage": ["d_unemp", "hpi_yoy_l1", "rate_l2"],
+    "consumer": ["d_unemp", "gdp_yoy", "rate_l2"],
+    "business": ["d_unemp", "gdp_yoy", "rate_l2"],
 }
 INCLUDE_LAGGED_PCL = True
 # Sub-periods for coefficient stability checks.
@@ -65,10 +68,11 @@ COVID_PEAK = ["2020Q1", "2020Q2", "2020Q3"]
 # quarter of the trough/peak (1-indexed) within the 9-quarter horizon.
 SCENARIOS = {
     "base": {
-        # PLACEHOLDER: replace with BoC MPR / bank economics consensus at jump-off.
-        "unemp_change": -0.3,
+        # BoC July 2026 MPR: GDP 1.8% in 2027-28, policy rate held at 2.25%,
+        # slack (unemployment 6.5-7%) absorbed gradually. Update with the October 2026 MPR.
+        "unemp_change": -0.4,
         "gdp_peak_to_trough": 0.0,
-        "gdp_trend_growth": 1.5,  # % annualized after trough
+        "gdp_trend_growth": 1.8,  # % annualized after trough
         "hpi_change": 0.02,
         "rate_change": 0.0,
         "trough_q": 9,
@@ -123,11 +127,13 @@ INSURED_SHARE = {b: 0.30 for b in BANKS}
 UNEMP_SIGMA_DEFAULT = 1.2
 # Scales the unemployment -> z mapping (unemployment is a noisy proxy for the
 # credit factor). Calibrate in week 5 so 2008-09 conditions reproduce 2009 loss rates.
-Z_SCALE = 1.0
+Z_SCALE = 0.5  # back-test: 2008Q3-2010Q3 path gives ~15 / 470 / 210 bp (decisions.md #23)
 
 # --- Capital ------------------------------------------------------------------
 TAX_RATE = 0.265  # Canadian combined statutory rate
-PPNR_HAIRCUT = {"base": 0.0, "adverse": 0.10, "stagflation": 0.15}
+# Supervisory severe scenarios typically cut PPNR 25-30% (decisions.md #24).
+PPNR_HAIRCUT = {"base": 0.0, "adverse": 0.20, "stagflation": 0.25}
+STRESS_OTHER_PCL = True  # scale non-Canadian PCL with the bank's Canadian loss multiple
 RWA_GROWTH_PER_Q = {"base": 0.005, "adverse": 0.01, "stagflation": 0.01}  # credit migration
 PAY_DIVIDENDS = True  # dividends held at trailing level (CCAR-style conservatism)
 # OSFI CET1 requirements for D-SIBs.

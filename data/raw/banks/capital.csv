@@ -1,4 +1,144 @@
 bank,fiscal_year,fiscal_quarter,cet1_capital,rwa,cet1_ratio,ppt_earnings,pcl_total_bank,common_dividends,source,notes
+BMO,2018,1,30034.0,270577.0,0.111,1877.0,141.0,600.0,BMO_FY2020Q1_SFI.pdf,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2018,2,30850.0,273011.0,0.113,1723.0,160.0,596.0,BMO_FY2020Q2_SFI.pdf,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2018,3,31636.0,277506.0,0.114,2166.0,186.0,614.0,BMO_FY2020Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2018,4,32684.0,289237.0,0.113,2310.0,175.0,614.0,BMO_FY2020Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2019,1,33857.0,296987.0,0.114,2034.0,137.0,639.0,BMO_FY2020Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2019,2,34899.0,308844.0,0.113,2057.0,176.0,639.0,BMO_FY2020Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2019,3,35682.0,313003.0,0.114,2288.0,306.0,658.0,BMO_FY2021Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2019,4,36141.0,317029.0,0.114,1765.0,253.0,658.0,BMO_FY2021Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2020,1,37124.0,325647.0,0.114,2362.0,349.0,678.0,BMO_FY2021Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2020,2,38298.0,348167.0,0.11,1945.0,1118.0,678.0,BMO_FY2021Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2020,3,39136.0,337377.0,0.116,2556.0,1054.0,682.0,BMO_FY2022Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2020,4,40056.0,336607.0,0.119,2438.0,432.0,685.0,BMO_FY2022Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2021,1,40774.0,328822.0,0.124,2761.0,156.0,686.0,BMO_FY2023Q1_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2021,2,41574.0,319802.0,0.13,1950.0,60.0,686.0,BMO_FY2023Q1_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2021,3,43219.0,322529.0,0.134,2894.0,-70.0,686.0,BMO_FY2023Q1_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2021,4,44584.0,325433.0,0.137,2673.0,-126.0,688.0,BMO_FY2023Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2022,1,47609.0,337652.0,0.141,3796.0,-99.0,862.0,BMO_FY2023Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2022,2,54766.0,342287.0,0.16,6413.0,50.0,894.0,BMO_FY2023Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2022,3,55570.0,351711.0,0.158,1827.0,136.0,938.0,BMO_FY2023Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2022,4,60787.0,363997.0,0.167,6163.0,226.0,940.0,BMO_FY2024Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2023,1,63237.0,347454.0,0.182,717.0,217.0,1015.0,BMO_FY2024Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2023,2,51239.0,419994.0,0.122,2288.0,1023.0,1020.0,BMO_FY2024Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2023,3,50792.0,412943.0,0.123,2480.0,492.0,1054.0,BMO_FY2024Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2023,4,53025.0,424197.0,0.125,2640.0,446.0,1059.0,BMO_FY2025Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2024,1,53011.0,414145.0,0.128,2283.0,627.0,1095.0,BMO_FY2025Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2024,2,54757.0,417994.0,0.131,3130.0,705.0,1102.0,BMO_FY2025Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2024,3,55752.0,428860.0,0.13,3353.0,906.0,1130.0,BMO_FY2026Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2024,4,57234.0,420838.0,0.136,4530.0,1523.0,1131.0,BMO_FY2026Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2025,1,59016.0,433944.0,0.136,3839.0,1011.0,1159.0,BMO_FY2026Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2025,2,57384.0,425066.0,0.135,3660.0,1054.0,1151.0,BMO_FY2026Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2025,3,58068.0,430134.0,0.135,3883.0,797.0,1165.0,BMO_FY2026Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2025,4,58247.0,437945.0,0.133,3785.0,755.0,1155.0,BMO_FY2026Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2026,1,57910.0,442058.0,0.131,4071.0,746.0,1179.0,BMO_FY2026Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2026,2,57682.0,443711.0,0.13,4237.0,739.0,1170.0,BMO_FY2026Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BMO,2026,3,59118.0,454757.0,0.13,3218.0,722.0,1192.0,BMO_FY2026Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x CET1 RWA
+BNS,2018,1,42990.0,382248.0,0.1119999999999999,3590.0,544.0,949.0,BNS_FY2018Q4_SFI.pdf,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2018,2,45025.0,375901.0,0.12,3332.0,534.0,982.0,BNS_FY2018Q4_SFI.pdf,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2018,3,46777.0,411426.0,0.114,3411.0,943.0,1011.0,BNS_FY2018Q4_SFI.pdf,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2018,4,44443.0,400507.0,0.111,3384.0,590.0,1043.0,BNS_FY2019Q4_SFI.pdf,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2019,1,45344.0,408565.0,0.111,3433.0,688.0,1041.0,BNS_FY2019Q4_SFI.pdf,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2019,2,46193.0,415212.0,0.111,3757.0,873.0,1063.0,BNS_FY2019Q4_SFI.pdf,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2019,3,46565.0,417058.0,0.1119999999999999,3450.0,713.0,1062.0,BNS_FY2019Q4_SFI.pdf,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2019,4,46578.0,421185.0,0.111,3657.0,753.0,1094.0,BNS_FY2020Q4_SFI.pdf,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2020,1,47804.0,420694.0,0.114,3723.0,926.0,1092.0,BNS_FY2020Q4_SFI.pdf,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2020,2,48543.0,446173.0,0.109,3593.0,1846.0,1090.0,BNS_FY2020Q4_SFI.pdf,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2020,3,48689.0,430542.0,0.113,3716.0,2181.0,1090.0,BNS_FY2020Q4_SFI.pdf,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2020,4,49165.0,417138.0,0.118,3448.0,1131.0,1091.0,BNS_FY2022Q4_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2021,1,49542.0,406780.0,0.122,3864.0,764.0,1091.0,BNS_FY2022Q4_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2021,2,49697.0,404727.0,0.123,3694.0,496.0,1092.0,BNS_FY2022Q4_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2021,3,50465.0,414169.0,0.122,3660.0,380.0,1093.0,BNS_FY2022Q4_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2021,4,51010.0,416105.0,0.123,3416.0,168.0,1095.0,BNS_FY2023Q4_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2022,1,52150.0,433682.0,0.12,3826.0,222.0,1207.0,BNS_FY2023Q4_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2022,2,51547.0,445273.0,0.1159999999999999,3783.0,219.0,1195.0,BNS_FY2023Q4_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2022,3,51639.0,452800.0,0.114,3608.0,412.0,1229.0,BNS_FY2023Q4_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2022,4,53081.0,462448.0,0.115,3097.0,529.0,1227.0,BNS_FY2024Q4_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2023,1,54138.0,471528.0,0.115,3501.0,638.0,1228.0,BNS_FY2024Q4_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2023,2,55520.0,451063.0,0.123,3339.0,709.0,1227.0,BNS_FY2024Q4_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2023,3,55832.0,439814.0,0.127,3508.0,819.0,1270.0,BNS_FY2024Q4_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2023,4,57041.0,440017.0,0.13,2745.0,1256.0,1278.0,BNS_FY2025Q4_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2024,1,58060.0,451018.0,0.129,3694.0,962.0,1287.0,BNS_FY2025Q4_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2024,2,59403.0,450191.0,0.132,3636.0,1007.0,1295.0,BNS_FY2025Q4_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2024,3,60432.0,453658.0,0.133,3415.0,1052.0,1304.0,BNS_FY2026Q3_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2024,4,60631.0,463992.0,0.131,3230.0,1030.0,1312.0,BNS_FY2026Q3_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2025,1,60294.0,468124.0,0.129,2881.0,1162.0,1320.0,BNS_FY2026Q3_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2025,2,60425.0,458989.0,0.132,3970.0,1398.0,1321.0,BNS_FY2026Q3_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2025,3,61591.0,463484.0,0.133,4397.0,1041.0,1367.0,BNS_FY2026Q3_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2025,4,62752.0,474453.0,0.132,3975.0,1113.0,1361.0,BNS_FY2026Q3_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2026,1,62972.0,474253.0,0.133,4347.0,1176.0,1358.0,BNS_FY2026Q3_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2026,2,62972.0,474440.0,0.133,4648.0,1217.0,1352.0,BNS_FY2026Q3_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+BNS,2026,3,64508.0,492866.0,0.131,4979.0,1079.0,1391.0,BNS_FY2026Q3_SFI.xlsx,RWA = CET1 capital RWA; cet1_ratio as reported (0.1%)
+CM,2018,1,22102.0,204647.0,0.108,1881.0,153.0,574.0,CM_FY2019Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2018,2,23304.0,208068.0,0.112,1859.0,212.0,591.0,CM_FY2019Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2018,3,23936.0,211820.0,0.113,1975.0,241.0,589.0,CM_FY2019Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2018,4,24640.0,216144.0,0.114,1861.0,264.0,602.0,CM_FY2020Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2019,1,25274.0,225663.0,0.112,1805.0,338.0,603.0,CM_FY2020Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2019,2,26299.0,234816.0,0.112,1954.0,255.0,621.0,CM_FY2020Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2019,3,26999.0,236836.0,0.114,2062.0,291.0,623.0,CM_FY2020Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2019,4,27824.0,239863.0,0.116,1934.0,402.0,641.0,CM_FY2021Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2020,1,28487.0,252099.0,0.113,1790.0,261.0,641.0,CM_FY2021Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2020,2,29579.0,261763.0,0.113,1874.0,1412.0,649.0,CM_FY2021Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2020,3,30289.0,256683.0,0.118,2006.0,525.0,650.0,CM_FY2021Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2020,4,30839.0,254871.0,0.121,1709.0,291.0,652.0,CM_FY2022Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2021,1,31503.0,256119.0,0.123,2237.0,147.0,653.0,CM_FY2022Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2021,2,31992.0,257997.0,0.124,2176.0,32.0,655.0,CM_FY2022Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2021,3,33087.0,268999.0,0.123,2138.0,-99.0,657.0,CM_FY2022Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2021,4,33829.0,272814.0,0.124,1929.0,78.0,657.0,CM_FY2023Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2022,1,34676.0,284226.0,0.122,2475.0,75.0,726.0,CM_FY2023Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2022,2,35046.0,299535.0,0.117,2262.0,303.0,726.0,CM_FY2023Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2022,3,35842.0,303743.0,0.118,2388.0,243.0,750.0,CM_FY2023Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2022,4,36929.0,315634.0,0.117,1905.0,436.0,752.0,CM_FY2024Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2023,1,36544.0,315038.0,0.116,1467.0,295.0,771.0,CM_FY2024Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2023,2,38221.0,321188.0,0.119,2564.0,438.0,775.0,CM_FY2024Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2023,3,38768.0,317773.0,0.122,2545.0,736.0,799.0,CM_FY2024Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2023,4,40439.0,326120.0,0.124,2407.0,541.0,804.0,CM_FY2025Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2024,1,41123.0,316333.0,0.13,2756.0,585.0,839.0,CM_FY2025Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2024,2,42773.0,326514.0,0.131,2663.0,514.0,844.0,CM_FY2025Q4_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2024,3,43784.0,329202.0,0.133,2922.0,483.0,849.0,CM_FY2026Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2024,4,44356.0,333502.0,0.133,2826.0,419.0,850.0,CM_FY2026Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2025,1,46161.0,341930.0,0.135,3403.0,573.0,914.0,CM_FY2026Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2025,2,45721.0,341204.0,0.134,3203.0,605.0,910.0,CM_FY2026Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2025,3,46593.0,347712.0,0.134,3278.0,559.0,904.0,CM_FY2026Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2025,4,47588.0,357803.0,0.133,3397.0,605.0,901.0,CM_FY2026Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2026,1,48485.0,361829.0,0.134,4069.0,568.0,989.0,CM_FY2026Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2026,2,48742.0,358396.0,0.136,3807.0,605.0,982.0,CM_FY2026Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+CM,2026,3,49481.0,369264.0,0.134,3683.0,564.0,974.0,CM_FY2026Q3_SFI.xlsx,CET1 capital = reported ratio (0.1%) x RWA; RWA = CET1 capital RWA before FQ1 2019
+NBC,2018,1,8002.0,71179.0,0.112,782.0,87.0,205.0,NBC_FY2018Q4_SFI.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2018,2,8236.0,72834.0,0.113,762.0,91.0,204.0,NBC_FY2018Q4_SFI.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2018,3,8489.0,73268.0,0.116,781.0,76.0,211.0,NBC_FY2019Q4_SFI.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2018,4,8608.0,73654.0,0.117,778.0,73.0,209.0,NBC_FY2019Q4_SFI.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2019,1,8822.0,77036.0,0.115,773.0,88.0,218.0,NBC_FY2019Q4_SFI.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2019,2,9092.0,79008.0,0.115,744.0,84.0,218.0,NBC_FY2019Q4_SFI.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2019,3,9475.0,80984.0,0.117,794.0,86.0,228.0,NBC_FY2020Q4_SFI.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2019,4,9692.0,83039.0,0.117,820.0,89.0,228.0,NBC_FY2020Q4_SFI.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2020,1,10046.0,86206.0,0.117,814.0,89.0,238.0,NBC_FY2020Q4_SFI.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2020,2,10568.0,92755.0,0.114,892.0,504.0,238.0,NBC_FY2020Q4_SFI.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2020,3,10840.0,94814.0,0.114,872.0,143.0,239.0,NBC_FY2021Q4_SFIfull.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2020,4,11167.0,94808.0,0.118,733.0,110.0,238.0,NBC_FY2021Q4_SFIfull.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2021,1,11563.0,97183.0,0.119,1030.0,81.0,239.0,NBC_FY2021Q4_SFIfull.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2021,2,11997.0,98705.0,0.122,1021.0,5.0,240.0,NBC_FY2021Q4_SFIfull.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2021,3,12574.0,103139.0,0.122,1030.0,-43.0,239.0,NBC_FY2022Q4_SFIfull.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2021,4,12973.0,104358.0,0.124,943.0,-41.0,240.0,NBC_FY2022Q4_SFIfull.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2022,1,13515.0,106168.0,0.127,1186.0,-2.0,294.0,NBC_FY2022Q4_SFIfull.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2022,2,13833.0,107478.0,0.129,1140.0,3.0,293.0,NBC_FY2022Q4_SFIfull.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2022,3,14270.0,111377.0,0.128,1108.0,57.0,310.0,NBC_FY2023Q4_SFIfull.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2022,4,14818.0,116840.0,0.127,988.0,87.0,309.0,NBC_FY2023Q4_SFIfull.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2023,1,15330.0,121813.0,0.126,1172.0,86.0,327.0,NBC_FY2023Q4_SFIfull.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2023,2,15892.0,119111.0,0.133,1084.0,85.0,328.0,NBC_FY2023Q4_SFIfull.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2023,3,16259.0,120562.0,0.135,1086.0,111.0,344.0,NBC_FY2024Q4_SFIfull.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2023,4,16920.0,125592.0,0.135,963.0,115.0,345.0,NBC_FY2024Q4_SFIfull.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2024,1,17350.0,132370.0,0.131,1261.0,120.0,359.0,NBC_FY2024Q4_SFIfull.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2024,2,18009.0,136115.0,0.132,1278.0,138.0,361.0,NBC_FY2024Q4_SFIfull.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2024,3,18705.0,138918.0,0.135,1455.0,149.0,374.0,NBC_FY2025Q4_SFI.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2024,4,19321.0,140975.0,0.137,1352.0,162.0,374.0,NBC_FY2025Q4_SFI.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2025,1,20141.0,148464.0,0.136,1537.0,254.0,389.0,NBC_FY2025Q4_SFI.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2025,2,24514.0,182772.0,0.134,1708.0,545.0,448.0,NBC_FY2026Q3_SFI.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2025,3,25392.0,183110.0,0.139,1524.0,203.0,463.0,NBC_FY2026Q3_SFI.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2025,4,25962.0,188756.0,0.138,1611.0,244.0,463.0,NBC_FY2026Q3_SFI.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2026,1,26023.0,189354.0,0.137,1882.0,244.0,484.0,NBC_FY2026Q3_SFI.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2026,2,26325.0,194491.0,0.135,1848.0,233.0,478.0,NBC_FY2026Q3_SFI.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
+NBC,2026,3,26859.0,198746.0,0.135,1960.0,246.0,508.0,NBC_FY2026Q3_SFI.xlsx,Capital from regulatory capital supplement; RWA = CET1 capital RWA during CVA phase-in
 RY,2018,1,51145.0,466800.0,0.11,4381.0,334.0,1319.0,RY_FY2019Q4_SFI.xlsx,"RWA = total capital RWA ($bn, 1 decimal); cet1_ratio as reported (rounded to 0.1%)"
 RY,2018,2,53277.0,489200.0,0.109,4151.0,274.0,1356.0,RY_FY2019Q4_SFI.xlsx,"RWA = total capital RWA ($bn, 1 decimal); cet1_ratio as reported (rounded to 0.1%)"
 RY,2018,3,55054.0,498900.0,0.111,4242.0,346.0,1355.0,RY_FY2019Q4_SFI.xlsx,"RWA = total capital RWA ($bn, 1 decimal); cet1_ratio as reported (rounded to 0.1%)"
@@ -34,3 +174,38 @@ RY,2025,4,98748.0,730200.0,0.135,7835.0,1007.0,2158.0,RY_FY2026Q3_SFI.xlsx,"RWA 
 RY,2026,1,100415.0,734700.0,0.137,8497.0,1090.0,2292.0,RY_FY2026Q3_SFI.xlsx,"RWA = total capital RWA ($bn, 1 decimal); cet1_ratio as reported (rounded to 0.1%)"
 RY,2026,2,101313.0,748600.0,0.135,8016.0,912.0,2279.0,RY_FY2026Q3_SFI.xlsx,"RWA = total capital RWA ($bn, 1 decimal); cet1_ratio as reported (rounded to 0.1%)"
 RY,2026,3,104956.0,778000.0,0.135,8749.0,1000.0,2438.0,RY_FY2026Q3_SFI.xlsx,"RWA = total capital RWA ($bn, 1 decimal); cet1_ratio as reported (rounded to 0.1%)"
+TD,2018,1,46800.0,441300.0,0.106,3939.0,693.0,1102.0,TD_FY2019Q4_SFI.pdf,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2018,2,49500.0,417800.0,0.118,4087.0,556.0,1239.0,TD_FY2019Q4_SFI.pdf,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2018,3,50100.0,428900.0,0.1169999999999999,4141.0,561.0,1222.0,TD_FY2019Q4_SFI.pdf,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2018,4,52400.0,435600.0,0.12,4086.0,670.0,1223.0,TD_FY2020Q4_SFI.pdf,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2019,1,52700.0,439300.0,0.12,3441.0,850.0,1227.0,TD_FY2020Q4_SFI.pdf,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2019,2,54300.0,452300.0,0.12,4312.0,633.0,1350.0,TD_FY2020Q4_SFI.pdf,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2019,3,54500.0,454900.0,0.12,4413.0,655.0,1347.0,TD_FY2020Q4_SFI.pdf,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2019,4,55000.0,456000.0,0.121,4092.0,891.0,1338.0,TD_FY2021Q4_SFI.pdf,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2020,1,55700.0,476000.0,0.1169999999999999,4362.0,919.0,1339.0,TD_FY2021Q4_SFI.pdf,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2020,2,57700.0,524000.0,0.11,4736.0,3218.0,1421.0,TD_FY2021Q4_SFI.pdf,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2020,3,59500.0,478100.0,0.125,4553.0,2188.0,1423.0,TD_FY2021Q4_SFI.pdf,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2020,4,62600.0,478900.0,0.131,5505.0,917.0,1431.0,TD_FY2022Q4_SFI.pdf,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2021,1,63400.0,467200.0,0.136,4248.0,313.0,1433.0,TD_FY2022Q4_SFI.pdf,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2021,2,64599.99999999999,455000.0,0.142,4058.0,-377.0,1435.0,TD_FY2022Q4_SFI.pdf,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2021,3,67300.0,465500.0,0.145,4260.0,-37.0,1436.0,TD_FY2022Q4_SFI.pdf,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2021,4,69900.0,460300.0,0.152,4344.0,-123.0,1437.0,TD_FY2023Q4_SFI.xlsx,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2022,1,71500.0,470900.0,0.152,4558.0,72.0,1622.0,TD_FY2023Q4_SFI.xlsx,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2022,2,71900.0,489000.0,0.147,4638.0,27.0,1603.0,TD_FY2023Q4_SFI.xlsx,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2022,3,74000.0,495700.0,0.149,4000.0,351.0,1604.0,TD_FY2023Q4_SFI.xlsx,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2022,4,83700.0,517000.0,0.162,8295.0,617.0,1613.0,TD_FY2023Q4_SFI.xlsx,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2023,1,82300.0,531600.0,0.155,2934.0,690.0,1746.0,TD_FY2023Q4_SFI.xlsx,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2023,2,84300.0,549400.0,0.153,4575.0,599.0,1754.0,TD_FY2023Q4_SFI.xlsx,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2023,3,83000.0,544900.0,0.152,4274.0,766.0,1758.0,TD_FY2023Q4_SFI.xlsx,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2023,4,82300.0,571200.0,0.144,4236.0,878.0,1724.0,TD_FY2023Q4_SFI.xlsx,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2024,1,80700.0,579400.0,0.139,4318.0,1001.0,1807.0,TD_FY2025Q4_SFI.xlsx,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2024,2,80800.0,602800.0,0.134,4170.0,1071.0,1795.0,TD_FY2025Q4_SFI.xlsx,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2024,3,78400.0,610500.0,0.128,1495.0,1072.0,1779.0,TD_FY2026Q3_SFI.xlsx,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2024,4,82700.0,630900.0,0.131,5100.0,1109.0,1782.0,TD_FY2026Q3_SFI.xlsx,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2025,1,85200.0,649000.0,0.131,4472.0,1212.0,1836.0,TD_FY2026Q3_SFI.xlsx,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2025,2,93000.0,624600.0,0.149,13381.0,1341.0,1815.0,TD_FY2026Q3_SFI.xlsx,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2025,3,93100.0,627200.0,0.148,5212.0,971.0,1798.0,TD_FY2026Q3_SFI.xlsx,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2025,4,94000.0,636400.0,0.147,5084.0,982.0,1779.0,TD_FY2026Q3_SFI.xlsx,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2026,1,92400.0,635200.0,0.145,6210.0,1039.0,1811.0,TD_FY2026Q3_SFI.xlsx,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2026,2,91700.0,641400.0,0.143,6027.0,1001.0,1786.0,TD_FY2026Q3_SFI.xlsx,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019
+TD,2026,3,93200.0,653400.0,0.143,6764.0,917.0,1840.0,TD_FY2026Q3_SFI.xlsx,CET1 capital and RWA in $bn (1 decimal); RWA = CET1 capital RWA before FQ1 2019

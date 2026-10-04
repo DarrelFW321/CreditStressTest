@@ -2,7 +2,7 @@
 
 Companion to [the PRD](PRD%20Canadian%20Bank%20Credit%20Stress%20Test.md). Six weeks at 8–10 h/week, starting **Mon Oct 5, 2026**, finishing **Sun Nov 15, 2026**. Resume-ready checkpoint: **end of week 4 (Nov 1)**.
 
-## Where things stand (Oct 3)
+## Where things stand (Oct 3, end of day: week 1–4 checkpoint reached; see README results)
 
 The code skeleton is built and tested. What is left is mostly **data collection, calibration, and writing**.
 
@@ -28,19 +28,20 @@ Goal: `data/raw/banks/pcl_loans.csv` and `capital.csv` filled for all 6 banks, F
 
 - [x] Download SFI packages: `make packages` (done Oct 3: 54 files, Q4 of FY2018–2025 + FQ3 2026 for all six banks, in `data/raw/banks/packages/<BANK>/`, git-ignored). Excel for most; PDF for TD 2018–22, Scotiabank 2018–20, BMO 2018–19 and 2021–22. Each Q4 package shows 5–8 trailing quarters. Use `--all-quarters` if a gap appears.
 - [x] **RBC extracted automatically** (`make extract`): 35 quarters × 6 products + capital, FQ1 2018–FQ3 2026. Stage 1–2 PCL is allocated (decisions.md #17); spot-check 3 quarters against the PDF.
-- [ ] Extract or hand-enter the other five banks (CIBC and National Bank are all-Excel; TD, Scotiabank and BMO have PDF-only early years).
-- [ ] For each bank-quarter, record **Canadian** PCL and gross loans by the bank's own labels. See [docs/data_collection.md](docs/data_collection.md) for where to find each table.
-- [ ] Record Stage 1–2 vs Stage 3 PCL wherever disclosed (often only at total-bank or segment level; leave blank otherwise).
-- [ ] Capital: CET1 capital, RWA, CET1 ratio, pre-provision pre-tax earnings, **total-bank PCL**, common dividends.
-- [ ] Update `data/portfolio_map.csv`. Every row starts as `VERIFY`; replace that with what you actually saw. Log HELOC decisions in [docs/decisions.md](docs/decisions.md).
-- [ ] `make banks` runs with no unmapped-label errors. Investigate every warning (loan jumps >15% q/q usually mean an acquisition (RBC–HSBC Canada in FQ2 2024; National Bank–Canadian Western Bank in FQ2 2025) or a relabel).
+- [x] **CIBC extracted automatically** (`make extract`): 35 quarters × 4 products + capital. Loans grossed up from net, Stage 1–2 PCL allocated, CET1 capital = ratio × RWA (decisions.md #19–21).
+- [x] **TD, Scotiabank, BMO, National Bank extracted automatically** (Excel + `pdftotext` for PDF-only years); judgment calls in decisions.md #25–36.
+- [x] For each bank-quarter, record **Canadian** PCL and gross loans by the bank's own labels. See [docs/data_collection.md](docs/data_collection.md) for where to find each table.
+- [x] Record Stage 1–2 vs Stage 3 PCL wherever disclosed (often only at total-bank or segment level; leave blank otherwise).
+- [x] Capital: CET1 capital, RWA, CET1 ratio, pre-provision pre-tax earnings, **total-bank PCL**, common dividends.
+- [x] Update `data/portfolio_map.csv`. Every row starts as `VERIFY`; replace that with what you actually saw. Log HELOC decisions in [docs/decisions.md](docs/decisions.md).
+- [x] `make banks` runs with no unmapped-label errors. Investigate every warning (loan jumps >15% q/q usually mean an acquisition (RBC–HSBC Canada in FQ2 2024; National Bank–Canadian Western Bank in FQ2 2025) or a relabel).
 
 **Done when:** panel has 6 banks × 3 portfolios × ~35 quarters, CET1/RWA reconciles to the reported ratio within 5 bp.
 
 ## Week 2 (Oct 12–18): Macro data and exploration (~8 h)
 
-- [ ] `make macro` (already working). Decide whether to replace the BIS series with CREA MLS HPI (monthly, better) by saving `data/raw/house_prices/hpi.csv`.
-- [ ] Set the **base scenario** from the latest BoC Monetary Policy Report (October 2026 MPR) and big-bank economics forecasts. Edit `SCENARIOS["base"]` in config.
+- [x] `make macro` (already working). Decide whether to replace the BIS series with CREA MLS HPI (monthly, better) by saving `data/raw/house_prices/hpi.csv`.
+- [x] Set the **base scenario** from the latest BoC Monetary Policy Report (October 2026 MPR) and big-bank economics forecasts. Edit `SCENARIOS["base"]` in config.
 - [ ] Notebook section 1: PCL history by bank (`pcl_history`), PCL vs unemployment / house prices (`pcl_vs_macro`), per-portfolio history.
 - [ ] Write down 3 observations for the report (e.g., the size of the 2020 Stage 1–2 build and 2021 release, which bank's business book is noisiest).
 - [ ] Collect 2008–09 PCL ratios by bank from annual reports (qualitative benchmark only; pre-IFRS 9).
@@ -49,29 +50,29 @@ Goal: `data/raw/banks/pcl_loans.csv` and `capital.csv` filled for all 6 banks, F
 
 ## Week 3 (Oct 19–25): Regression (~8–10 h)
 
-- [ ] `make regression`. For each portfolio, review signs, magnitudes, R², dropped variables.
-- [ ] Stability table: full sample vs pre-COVID vs ex-COVID-peak vs post-COVID. Coefficients should keep sign; flag anything that flips.
+- [x] `make regression`. For each portfolio, review signs, magnitudes, R², dropped variables.
+- [x] Stability table: full sample vs pre-COVID vs ex-COVID-peak vs post-COVID. Coefficients should keep sign; flag anything that flips.
 - [ ] Try the performing/impaired split (`target="pcl_perf_bps"` / `"pcl_imp_bps"`) where data allows; performing should react faster.
-- [ ] Sensitivity: lag choices (unemployment lag 0/1/2, HPI lag 1/2/4), with/without lagged PCL. Keep the specification simple (3–4 variables).
+- [x] Sensitivity: lag choices (unemployment lag 0/1/2, HPI lag 1/2/4), with/without lagged PCL. Keep the specification simple (3–4 variables).
 - [ ] Sanity check: long-run multiplier (β/(1–ρ)) on unemployment × 2009 shock (+2.6 pp) should give a loss increase in the order of magnitude seen in 2009.
-- [ ] Record the final specification in `config.PORTFOLIO_REGRESSORS` and in docs/decisions.md.
+- [x] Record the final specification in `config.PORTFOLIO_REGRESSORS` and in docs/decisions.md (#22).
 
 **Known issue to manage:** COVID is the only stress in sample and government support muted losses → coefficients likely *understate* recession sensitivity. Don't fight this in the regression; that's what the Vasicek cross-check is for.
 
 ## Week 4 (Oct 26–Nov 1): Scenarios and projection (~10 h), **resume-ready checkpoint**
 
-- [ ] Review scenario paths (`python -m src.scenarios`) against history: adverse peak unemployment ~9.7% (vs 8.7% in 2009), stagflation ~10.7% with rates +200 bp.
-- [ ] `make all` with `--method regression` first. Inspect loss paths, CET1 paths, waterfall.
-- [ ] Sanity check the capital mechanics: PPNR haircut, dividends held, RWA migration, tax rate, other-PCL run rate.
-- [ ] Draft the ranking and the main driver per bank.
-- [ ] **Put the 3 resume bullets in with real numbers** (PRD template). Commit and push the repo with a first README results section.
+- [x] Review scenario paths (`python -m src.scenarios`) against history: adverse peak unemployment ~9.7% (vs 8.7% in 2009), stagflation ~10.7% with rates +200 bp.
+- [x] `make all` with `--method regression` first. Inspect loss paths, CET1 paths, waterfall.
+- [x] Sanity check the capital mechanics: PPNR haircut, dividends held, RWA migration, tax rate, other-PCL run rate.
+- [x] Draft the ranking and the main driver per bank.
+- [x] **Put the 3 resume bullets in with real numbers** (PRD template). Commit and push the repo with a first README results section.
 
 **Done when:** resume bullets have real numbers and the repo is public.
 
 ## Week 5 (Nov 2–8): Vasicek and benchmarking (~10 h)
 
 - [ ] Calibrate Vasicek inputs from Pillar 3 IRB disclosures (CR6 tables: PD and LGD by portfolio): `BASE_PD`, `LGD`, `INSURED_SHARE` (from SFI insured/uninsured mortgage tables), `MORTGAGE_DEFAULT_LTV`.
-- [ ] **Back-test the z mapping:** set the scenario to 2008–09 conditions (+2.6 pp unemployment) and tune `Z_SCALE` so Vasicek loss rates land near 2009 actual PCL ratios. This is the key calibration. Without it, stagflation (+4 pp ≈ z of –3) produces near-Basel-99.9% losses.
+- [x] **Back-test the z mapping:** set the scenario to 2008–09 conditions (+2.6 pp unemployment) and tune `Z_SCALE` so Vasicek loss rates land near 2009 actual PCL ratios. This is the key calibration. Without it, stagflation (+4 pp ≈ z of –3) produces near-Basel-99.9% losses.
 - [ ] Run sensitivity tables (ρ × base PD) for each portfolio; include in report.
 - [ ] `method_agreement`: Vasicek/regression ratio per portfolio. PRD success = "within a reasonable range". Define it up front (e.g., 0.5×–2×) and explain gaps.
 - [ ] Collect IFRS 9 disclosures from the FY2025 annual reports (FY2026 ones publish early December, after the project ends): downside scenario assumptions and the "100% pessimistic" allowance sensitivity → `ifrs9_scenarios.csv`, `ifrs9_sensitivity.csv`.

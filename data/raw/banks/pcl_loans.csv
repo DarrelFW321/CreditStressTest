@@ -1,4 +1,564 @@
 bank,fiscal_year,fiscal_quarter,segment_label,pcl_total,pcl_performing,pcl_impaired,gross_loans,source,notes
+BMO,2018,1,Residential mortgages,4.12,-0.13,4.25,111193.1,BMO_FY2020Q1_SFI.pdf,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2018,1,Consumer instalment and other personal,28.47,-0.93,29.4,52323.3,BMO_FY2020Q1_SFI.pdf,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2018,1,Credit cards,40.57,-1.32,41.9,7602.7,BMO_FY2020Q1_SFI.pdf,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2018,1,Business and government,18.84,-0.61,19.45,78025.9,BMO_FY2020Q1_SFI.pdf,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2018,2,Residential mortgages,0.9,-0.05,0.94,110525.9,BMO_FY2020Q2_SFI.pdf,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2018,2,Consumer instalment and other personal,64.22,-0.83,65.05,52008.0,BMO_FY2020Q2_SFI.pdf,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2018,2,Credit cards,48.26,-0.8,49.06,7405.7,BMO_FY2020Q2_SFI.pdf,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2018,2,Business and government,16.63,-0.32,16.95,84185.5,BMO_FY2020Q2_SFI.pdf,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2018,3,Residential mortgages,6.39,0.1,6.29,110513.8,BMO_FY2020Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2018,3,Consumer instalment and other personal,40.65,1.15,39.49,52170.7,BMO_FY2020Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2018,3,Credit cards,48.89,1.2,47.69,7677.3,BMO_FY2020Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2018,3,Business and government,28.08,0.55,27.53,86319.3,BMO_FY2020Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2018,4,Residential mortgages,3.6,-0.68,4.28,110817.6,BMO_FY2020Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2018,4,Consumer instalment and other personal,37.66,-7.71,45.38,52655.4,BMO_FY2020Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2018,4,Credit cards,34.87,-7.8,42.67,7697.7,BMO_FY2020Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2018,4,Business and government,20.86,-3.81,24.67,90351.4,BMO_FY2020Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2019,1,Residential mortgages,5.56,0.21,5.35,111029.3,BMO_FY2020Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2019,1,Consumer instalment and other personal,28.38,2.2,26.18,53031.3,BMO_FY2020Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2019,1,Credit cards,60.87,2.47,58.4,7803.3,BMO_FY2020Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2019,1,Business and government,21.19,1.12,20.08,94801.1,BMO_FY2020Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2019,2,Residential mortgages,3.75,0.77,2.98,111109.1,BMO_FY2020Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2019,2,Consumer instalment and other personal,47.28,6.16,41.12,53310.4,BMO_FY2020Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2019,2,Credit cards,66.88,8.4,58.48,7636.4,BMO_FY2020Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2019,2,Business and government,22.09,3.67,18.42,100983.1,BMO_FY2020Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2019,3,Residential mortgages,1.32,0.52,0.8,111658.3,BMO_FY2021Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2019,3,Consumer instalment and other personal,55.64,6.23,49.41,53962.9,BMO_FY2021Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2019,3,Credit cards,66.02,8.35,57.66,8114.8,BMO_FY2021Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2019,3,Business and government,42.02,3.9,38.13,105934.0,BMO_FY2021Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2019,4,Residential mortgages,5.8,0.23,5.57,113013.8,BMO_FY2021Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2019,4,Consumer instalment and other personal,44.08,2.47,41.6,54859.5,BMO_FY2021Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2019,4,Credit cards,53.56,3.51,50.05,8214.2,BMO_FY2021Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2019,4,Business and government,39.56,1.79,37.78,106187.4,BMO_FY2021Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2020,1,Residential mortgages,2.8,0.2,2.6,114208.6,BMO_FY2021Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2020,1,Consumer instalment and other personal,32.59,2.71,29.88,55605.2,BMO_FY2021Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2020,1,Credit cards,46.21,3.49,42.72,8378.4,BMO_FY2021Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2020,1,Business and government,63.39,2.59,60.8,107142.8,BMO_FY2021Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2020,2,Residential mortgages,9.8,7.26,2.53,114855.8,BMO_FY2021Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2020,2,Consumer instalment and other personal,158.54,108.14,50.4,56035.1,BMO_FY2021Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2020,2,Credit cards,198.72,135.12,63.6,7885.8,BMO_FY2021Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2020,2,Business and government,246.94,148.47,98.47,113283.2,BMO_FY2021Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2020,3,Residential mortgages,14.44,7.2,7.24,115904.7,BMO_FY2022Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2020,3,Consumer instalment and other personal,138.64,74.61,64.03,55721.5,BMO_FY2022Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2020,3,Credit cards,160.07,90.62,69.45,7250.4,BMO_FY2022Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2020,3,Business and government,272.85,134.57,138.28,109593.5,BMO_FY2022Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2020,4,Residential mortgages,2.09,-0.32,2.4,117450.5,BMO_FY2022Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2020,4,Consumer instalment and other personal,20.67,-3.6,24.27,56181.1,BMO_FY2022Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2020,4,Credit cards,46.62,-4.86,51.48,7444.7,BMO_FY2022Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2020,4,Business and government,78.62,-8.22,86.84,109199.7,BMO_FY2022Q3_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2021,1,Residential mortgages,11.11,0.36,10.75,120020.4,BMO_FY2023Q1_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2021,1,Consumer instalment and other personal,41.5,2.81,38.69,56789.9,BMO_FY2023Q1_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2021,1,Credit cards,65.75,3.9,61.85,7324.0,BMO_FY2023Q1_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2021,1,Business and government,57.64,5.94,51.71,107682.7,BMO_FY2023Q1_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2021,2,Residential mortgages,1.03,-1.62,2.65,122064.9,BMO_FY2023Q1_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2021,2,Consumer instalment and other personal,42.73,-12.84,55.57,57571.8,BMO_FY2023Q1_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2021,2,Credit cards,52.99,-17.83,70.83,6932.6,BMO_FY2023Q1_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2021,2,Business and government,10.24,-21.71,31.96,112626.7,BMO_FY2023Q1_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2021,3,Residential mortgages,1.8,-1.03,2.83,125536.8,BMO_FY2023Q1_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2021,3,Consumer instalment and other personal,29.66,-8.65,38.32,59359.0,BMO_FY2023Q1_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2021,3,Credit cards,54.16,-13.91,68.08,7214.9,BMO_FY2023Q1_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2021,3,Business and government,-17.63,-9.41,-8.22,115519.4,BMO_FY2023Q1_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2021,4,Residential mortgages,-2.11,-4.57,2.47,128361.5,BMO_FY2023Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2021,4,Consumer instalment and other personal,-4.98,-41.33,36.35,61406.5,BMO_FY2023Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2021,4,Credit cards,-14.97,-60.17,45.2,7584.1,BMO_FY2023Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2021,4,Business and government,-15.95,-21.93,5.98,116391.0,BMO_FY2023Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2022,1,Residential mortgages,0.63,-1.6,2.23,129861.9,BMO_FY2023Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2022,1,Consumer instalment and other personal,6.37,-25.42,31.78,62665.6,BMO_FY2023Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2022,1,Credit cards,11.06,-36.31,47.37,7885.0,BMO_FY2023Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2022,1,Business and government,-2.06,-6.68,4.61,119561.5,BMO_FY2023Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2022,2,Residential mortgages,0.67,-0.3,0.97,131291.5,BMO_FY2023Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2022,2,Consumer instalment and other personal,16.48,-4.47,20.96,64047.4,BMO_FY2023Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2022,2,Credit cards,32.37,-7.02,39.4,7861.0,BMO_FY2023Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2022,2,Business and government,22.47,-1.2,23.67,129609.2,BMO_FY2023Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2022,3,Residential mortgages,-0.44,-0.44,0.0,134492.9,BMO_FY2023Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2022,3,Consumer instalment and other personal,25.41,-9.74,35.16,66616.5,BMO_FY2023Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2022,3,Credit cards,38.13,-14.48,52.6,8590.6,BMO_FY2023Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2022,3,Business and government,4.9,-3.33,8.24,135492.0,BMO_FY2023Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2022,4,Residential mortgages,4.4,0.4,4.0,138549.9,BMO_FY2024Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2022,4,Consumer instalment and other personal,50.99,7.39,43.59,67196.3,BMO_FY2024Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2022,4,Credit cards,69.07,11.1,57.97,8990.0,BMO_FY2024Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2022,4,Business and government,40.54,4.1,36.44,140469.8,BMO_FY2024Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2023,1,Residential mortgages,3.07,0.15,2.92,141906.5,BMO_FY2024Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2023,1,Consumer instalment and other personal,54.75,2.88,51.87,67766.0,BMO_FY2024Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2023,1,Credit cards,71.89,4.13,67.75,9433.7,BMO_FY2024Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2023,1,Business and government,30.29,1.84,28.45,138042.8,BMO_FY2024Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2023,2,Residential mortgages,0.55,0.55,0.0,143230.8,BMO_FY2024Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2023,2,Consumer instalment and other personal,81.56,15.68,65.88,67852.9,BMO_FY2024Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2023,2,Credit cards,104.09,20.87,83.22,9602.4,BMO_FY2024Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2023,2,Business and government,33.8,7.9,25.9,140850.0,BMO_FY2024Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2023,3,Residential mortgages,8.07,1.41,6.66,145803.9,BMO_FY2024Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2023,3,Consumer instalment and other personal,89.26,23.58,65.68,68657.9,BMO_FY2024Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2023,3,Credit cards,113.83,30.37,83.46,10261.8,BMO_FY2024Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2023,3,Business and government,64.85,14.64,50.21,144068.4,BMO_FY2024Q4_SFI.xlsx,"Stage 3 + loans Canada allocated (pre-FQ4 2023); Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2023,4,Residential mortgages,5.27,0.27,5.0,150575.0,BMO_FY2025Q4_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2023,4,Consumer instalment and other personal,89.89,4.89,85.0,70039.0,BMO_FY2025Q4_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2023,4,Credit cards,99.98,5.98,94.0,10880.0,BMO_FY2025Q4_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2023,4,Business and government,55.87,2.87,53.0,141924.0,BMO_FY2025Q4_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2024,1,Residential mortgages,8.66,1.66,7.0,150042.0,BMO_FY2025Q4_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2024,1,Consumer instalment and other personal,122.64,27.64,95.0,69466.0,BMO_FY2025Q4_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2024,1,Credit cards,122.2,31.2,91.0,11164.0,BMO_FY2025Q4_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2024,1,Business and government,73.51,16.51,57.0,145012.0,BMO_FY2025Q4_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2024,2,Residential mortgages,9.68,1.68,8.0,151770.0,BMO_FY2025Q4_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2024,2,Consumer instalment and other personal,122.82,21.82,101.0,69394.0,BMO_FY2025Q4_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2024,2,Credit cards,159.33,25.33,134.0,11656.0,BMO_FY2025Q4_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2024,2,Business and government,79.17,14.17,65.0,146467.0,BMO_FY2025Q4_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2024,3,Residential mortgages,12.02,1.02,11.0,155781.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2024,3,Consumer instalment and other personal,124.87,12.87,112.0,69657.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2024,3,Credit cards,148.83,14.83,134.0,12076.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2024,3,Business and government,86.28,8.28,78.0,150588.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2024,4,Residential mortgages,15.37,3.37,12.0,158910.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2024,4,Consumer instalment and other personal,149.27,37.27,112.0,69693.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2024,4,Credit cards,181.01,44.01,137.0,12271.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2024,4,Business and government,221.34,34.34,187.0,151666.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2025,1,Residential mortgages,15.31,1.31,14.0,160123.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2025,1,Consumer instalment and other personal,138.08,13.08,125.0,69263.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2025,1,Credit cards,178.48,16.48,162.0,12169.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2025,1,Business and government,206.14,15.14,191.0,150884.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2025,2,Residential mortgages,14.91,3.91,11.0,160938.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2025,2,Consumer instalment and other personal,158.16,38.16,120.0,69503.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2025,2,Credit cards,216.9,48.9,168.0,12164.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2025,2,Business and government,209.04,50.04,159.0,152449.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2025,3,Residential mortgages,15.43,2.43,13.0,161830.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2025,3,Consumer instalment and other personal,153.65,23.65,130.0,69682.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2025,3,Credit cards,209.32,31.32,178.0,11892.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2025,3,Business and government,253.61,36.61,217.0,155933.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2025,4,Residential mortgages,23.5,2.5,21.0,162340.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2025,4,Consumer instalment and other personal,144.1,21.1,123.0,69864.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2025,4,Credit cards,202.9,28.9,174.0,11528.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2025,4,Business and government,232.5,32.5,200.0,154485.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2026,1,Residential mortgages,17.67,0.67,17.0,162052.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2026,1,Consumer instalment and other personal,138.48,5.48,133.0,69819.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2026,1,Credit cards,173.43,7.43,166.0,11025.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2026,1,Business and government,208.41,8.41,200.0,152836.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2026,2,Residential mortgages,22.61,0.61,22.0,162090.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2026,2,Consumer instalment and other personal,139.32,4.32,135.0,70375.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2026,2,Credit cards,181.76,5.76,176.0,10891.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2026,2,Business and government,151.32,6.32,145.0,155438.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2026,3,Residential mortgages,32.17,2.17,30.0,164183.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2026,3,Consumer instalment and other personal,130.29,12.29,118.0,71222.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2026,3,Credit cards,171.2,16.2,155.0,10904.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BMO,2026,3,Business and government,190.34,17.34,173.0,155850.0,BMO_FY2026Q3_SFI.xlsx,"Stage 3 + loans Canada direct; Stage 1-2 allocated (decisions.md, BMO)"
+BNS,2018,1,Residential mortgages,12.17,-0.37,12.53,199400.0,BNS_FY2018Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2018,1,Personal loans,128.56,-3.86,132.42,67100.0,BNS_FY2018Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2018,1,Credit cards,59.27,-1.78,61.05,6900.0,BNS_FY2018Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2018,1,Business and government,10.0,-4.0,14.0,46000.0,BNS_FY2018Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2018,2,Residential mortgages,10.11,0.0,10.11,200700.0,BNS_FY2018Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2018,2,Personal loans,125.63,0.0,125.63,67000.0,BNS_FY2018Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2018,2,Credit cards,57.26,0.0,57.26,6800.0,BNS_FY2018Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2018,2,Business and government,12.0,1.0,11.0,47800.0,BNS_FY2018Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2018,3,Residential mortgages,10.65,-0.31,10.95,201700.0,BNS_FY2018Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2018,3,Personal loans,114.23,-3.28,117.52,68000.0,BNS_FY2018Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2018,3,Credit cards,49.12,-1.41,50.53,7100.0,BNS_FY2018Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2018,3,Business and government,7.0,12.0,-5.0,49700.0,BNS_FY2018Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2018,4,Residential mortgages,9.92,-0.11,10.04,202500.0,BNS_FY2019Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2018,4,Personal loans,118.92,-1.33,120.25,69000.0,BNS_FY2019Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2018,4,Credit cards,50.16,-0.56,50.72,7200.0,BNS_FY2019Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2018,4,Business and government,19.0,12.0,7.0,50300.0,BNS_FY2019Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2019,1,Residential mortgages,9.45,0.05,9.41,204500.0,BNS_FY2019Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2019,1,Personal loans,136.48,0.68,135.81,69000.0,BNS_FY2019Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2019,1,Credit cards,56.07,0.28,55.79,7400.0,BNS_FY2019Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2019,1,Business and government,29.0,1.0,28.0,50400.0,BNS_FY2019Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2019,2,Residential mortgages,10.32,1.05,9.27,205000.0,BNS_FY2019Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2019,2,Personal loans,167.44,17.09,150.35,68900.0,BNS_FY2019Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2019,2,Credit cards,67.24,6.86,60.38,7300.0,BNS_FY2019Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2019,2,Business and government,8.0,-5.0,13.0,51700.0,BNS_FY2019Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2019,3,Residential mortgages,7.69,-0.85,8.54,207300.0,BNS_FY2019Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2019,3,Personal loans,148.9,-16.39,165.29,70000.0,BNS_FY2019Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2019,3,Credit cards,61.41,-6.76,68.17,7600.0,BNS_FY2019Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2019,3,Business and government,23.0,9.0,14.0,54200.0,BNS_FY2019Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2019,4,Residential mortgages,6.7,0.03,6.67,212115.7,BNS_FY2020Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2019,4,Personal loans,153.42,0.68,152.74,71181.1,BNS_FY2020Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2019,4,Credit cards,66.88,0.29,66.59,7691.3,BNS_FY2020Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2019,4,Business and government,20.0,-9.0,29.0,55313.0,BNS_FY2020Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2020,1,Residential mortgages,5.49,-0.17,5.65,215381.2,BNS_FY2020Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2020,1,Personal loans,157.54,-4.75,162.29,71315.6,BNS_FY2020Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2020,1,Credit cards,68.97,-2.08,71.06,7795.3,BNS_FY2020Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2020,1,Business and government,18.0,-1.0,19.0,56607.9,BNS_FY2020Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2020,2,Residential mortgages,14.74,7.61,7.13,217844.0,BNS_FY2020Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2020,2,Personal loans,355.75,183.61,172.14,70910.9,BNS_FY2020Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2020,2,Credit cards,156.51,80.78,75.73,7333.0,BNS_FY2020Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2020,2,Business and government,143.0,85.0,58.0,59245.5,BNS_FY2020Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2020,3,Residential mortgages,23.13,12.78,10.35,220700.0,BNS_FY2020Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2020,3,Personal loans,366.99,202.74,164.25,69300.0,BNS_FY2020Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2020,3,Credit cards,143.88,79.48,64.39,6600.0,BNS_FY2020Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2020,3,Business and government,218.0,140.0,78.0,59400.0,BNS_FY2020Q4_SFI.pdf,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2020,4,Residential mortgages,18.24,3.56,14.69,225500.0,BNS_FY2022Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2020,4,Personal loans,160.08,31.2,128.88,69700.0,BNS_FY2022Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2020,4,Credit cards,57.68,11.24,46.44,6700.0,BNS_FY2022Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2020,4,Business and government,94.0,46.0,48.0,58200.0,BNS_FY2022Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2021,1,Residential mortgages,18.19,-0.19,18.38,231000.0,BNS_FY2022Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2021,1,Personal loans,126.72,-1.34,128.07,69200.0,BNS_FY2022Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2021,1,Credit cards,44.09,-0.47,44.56,6600.0,BNS_FY2022Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2021,1,Business and government,26.0,3.0,23.0,58900.0,BNS_FY2022Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2021,2,Residential mortgages,15.19,-4.29,19.48,234800.0,BNS_FY2022Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2021,2,Personal loans,101.95,-28.77,130.72,67800.0,BNS_FY2022Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2021,2,Credit cards,45.86,-12.94,58.81,6200.0,BNS_FY2022Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2021,2,Business and government,-18.0,-51.0,33.0,61000.0,BNS_FY2022Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2021,3,Residential mortgages,7.12,-1.24,8.36,243300.0,BNS_FY2022Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2021,3,Personal loans,53.75,-9.35,63.1,68300.0,BNS_FY2022Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2021,3,Credit cards,31.13,-5.41,36.54,6200.0,BNS_FY2022Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2021,3,Business and government,-23.0,-50.0,27.0,63300.0,BNS_FY2022Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2021,4,Residential mortgages,-1.6,-5.11,3.51,255200.0,BNS_FY2023Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2021,4,Personal loans,-18.43,-58.74,40.31,68700.0,BNS_FY2023Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2021,4,Credit cards,-11.97,-38.15,26.18,6400.0,BNS_FY2023Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2021,4,Business and government,-64.0,-93.0,29.0,64800.0,BNS_FY2023Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2022,1,Residential mortgages,-0.6,-5.46,4.87,264900.0,BNS_FY2023Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2022,1,Personal loans,-7.25,-66.32,59.08,68600.0,BNS_FY2023Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2022,1,Credit cards,-5.16,-47.21,42.06,6600.0,BNS_FY2023Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2022,1,Business and government,-22.0,-41.0,19.0,68300.0,BNS_FY2023Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2022,2,Residential mortgages,-0.08,-4.71,4.63,271800.0,BNS_FY2023Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2022,2,Personal loans,-1.19,-71.29,70.1,68800.0,BNS_FY2023Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2022,2,Credit cards,-0.73,-44.0,43.27,6500.0,BNS_FY2023Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2022,2,Business and government,-10.0,-23.0,13.0,72700.0,BNS_FY2023Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2022,3,Residential mortgages,2.65,-1.81,4.46,278400.0,BNS_FY2023Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2022,3,Personal loans,53.82,-36.73,90.55,70500.0,BNS_FY2023Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2022,3,Credit cards,28.53,-19.46,47.99,6900.0,BNS_FY2023Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2022,3,Business and government,8.0,8.0,0.0,77800.0,BNS_FY2023Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2022,4,Residential mortgages,6.36,0.0,6.36,282300.0,BNS_FY2024Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2022,4,Personal loans,85.2,0.0,85.2,71600.0,BNS_FY2024Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2022,4,Credit cards,45.44,0.0,45.44,7100.0,BNS_FY2024Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2022,4,Business and government,26.0,10.0,16.0,81000.0,BNS_FY2024Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2023,1,Residential mortgages,8.63,0.47,8.17,282900.0,BNS_FY2024Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2023,1,Personal loans,115.3,6.23,109.07,72300.0,BNS_FY2024Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2023,1,Credit cards,61.07,3.3,57.76,7400.0,BNS_FY2024Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2023,1,Business and government,33.0,21.0,12.0,83700.0,BNS_FY2024Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2023,2,Residential mortgages,10.9,-1.1,12.0,281100.0,BNS_FY2024Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2023,2,Personal loans,117.61,-11.89,129.49,72700.0,BNS_FY2024Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2023,2,Credit cards,59.5,-6.01,65.51,7600.0,BNS_FY2024Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2023,2,Business and government,30.0,14.0,16.0,85600.0,BNS_FY2024Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2023,3,Residential mortgages,19.1,1.59,17.51,277000.0,BNS_FY2024Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2023,3,Personal loans,146.84,12.19,134.66,73600.0,BNS_FY2024Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2023,3,Credit cards,75.06,6.23,68.83,8000.0,BNS_FY2024Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2023,3,Business and government,66.0,29.0,37.0,87900.0,BNS_FY2024Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2023,4,Residential mortgages,40.67,20.12,20.54,271400.0,BNS_FY2025Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2023,4,Personal loans,296.86,146.9,149.96,73900.0,BNS_FY2025Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2023,4,Credit cards,147.47,72.98,74.5,8400.0,BNS_FY2025Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2023,4,Business and government,215.0,174.0,41.0,90100.0,BNS_FY2025Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2024,1,Residential mortgages,24.16,0.26,23.9,268500.0,BNS_FY2025Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2024,1,Personal loans,173.66,1.85,171.81,73700.0,BNS_FY2025Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2024,1,Credit cards,83.18,0.89,82.29,8800.0,BNS_FY2025Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2024,1,Business and government,97.0,9.0,88.0,91300.0,BNS_FY2025Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2024,2,Residential mortgages,33.54,2.02,31.52,267600.0,BNS_FY2025Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2024,2,Personal loans,227.22,13.7,213.53,73800.0,BNS_FY2025Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2024,2,Credit cards,104.24,6.28,97.96,8900.0,BNS_FY2025Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2024,2,Business and government,63.0,7.0,56.0,92100.0,BNS_FY2025Q4_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2024,3,Residential mortgages,30.91,7.11,23.8,270800.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2024,3,Personal loans,227.79,52.42,175.37,74200.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2024,3,Credit cards,106.29,24.46,81.83,9300.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2024,3,Business and government,70.0,13.0,57.0,94300.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2024,4,Residential mortgages,32.26,0.0,32.26,274700.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2024,4,Personal loans,217.88,0.0,217.88,74600.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2024,4,Credit cards,104.86,0.0,104.86,9500.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2024,4,Business and government,95.0,-11.0,106.0,95100.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2025,1,Residential mortgages,38.78,4.13,34.66,278900.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2025,1,Personal loans,257.33,27.38,229.96,74300.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2025,1,Credit cards,126.88,13.5,113.39,9500.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2025,1,Business and government,115.0,6.0,109.0,94300.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2025,2,Residential mortgages,58.7,21.07,37.63,282700.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2025,2,Personal loans,364.84,130.94,233.9,73600.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2025,2,Credit cards,189.46,68.0,121.47,9200.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2025,2,Business and government,192.0,97.0,95.0,93400.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2025,3,Residential mortgages,34.29,0.54,33.75,283800.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2025,3,Personal loans,185.01,2.89,182.12,73600.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2025,3,Credit cards,100.71,1.57,99.13,9400.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2025,3,Business and government,136.0,4.0,132.0,94000.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2025,4,Residential mortgages,35.57,2.11,33.46,287000.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2025,4,Personal loans,205.41,12.19,193.22,73600.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2025,4,Credit cards,113.02,6.7,106.31,9600.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2025,4,Business and government,140.0,1.0,139.0,93500.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2026,1,Residential mortgages,40.74,1.12,39.62,293400.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2026,1,Personal loans,246.67,6.79,239.88,73700.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2026,1,Credit cards,148.59,4.09,144.5,9600.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2026,1,Business and government,140.0,11.0,129.0,93000.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2026,2,Residential mortgages,38.25,2.99,35.26,295200.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2026,2,Personal loans,247.75,19.36,228.39,74000.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2026,2,Credit cards,149.0,11.65,137.35,9400.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2026,2,Business and government,140.0,25.0,115.0,94700.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2026,3,Residential mortgages,26.52,1.73,24.8,294100.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2026,3,Personal loans,214.68,13.96,200.71,74300.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2026,3,Credit cards,127.8,8.31,119.49,9700.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+BNS,2026,3,Business and government,129.0,8.0,121.0,97200.0,BNS_FY2026Q3_SFI.xlsx,"Canadian Banking segment; average balances; retail PCL split allocated (decisions.md, BNS)"
+CM,2018,1,Residential mortgages,7.72,-1.08,8.8,204665.4,CM_FY2019Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2018,1,Personal,60.68,-10.66,71.34,40087.2,CM_FY2019Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2018,1,Credit card,78.26,-13.61,91.86,12127.4,CM_FY2019Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2018,1,Business and government,5.91,-7.09,13.0,61940.0,CM_FY2019Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2018,2,Residential mortgages,12.9,-0.1,13.0,204883.0,CM_FY2019Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2018,2,Personal,77.22,-0.78,78.0,40902.7,CM_FY2019Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2018,2,Credit card,100.0,-1.0,101.0,12433.3,CM_FY2019Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2018,2,Business and government,8.02,-0.98,9.0,64445.0,CM_FY2019Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2018,3,Residential mortgages,20.02,0.24,19.78,204784.8,CM_FY2019Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2018,3,Personal,80.67,1.54,79.13,41230.3,CM_FY2019Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2018,3,Credit card,98.04,1.95,96.09,12371.9,CM_FY2019Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2018,3,Business and government,-10.16,-12.16,2.0,65997.0,CM_FY2019Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2018,4,Residential mortgages,15.27,0.29,14.98,203991.9,CM_FY2020Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2018,4,Personal,74.58,1.53,73.05,41836.2,CM_FY2020Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2018,4,Credit card,90.89,1.92,88.97,12473.9,CM_FY2020Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2018,4,Business and government,11.33,0.33,11.0,69230.0,CM_FY2020Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2019,1,Residential mortgages,14.24,1.57,12.66,203867.1,CM_FY2020Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2019,1,Personal,92.94,8.19,84.76,41424.6,CM_FY2020Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2019,1,Credit card,101.39,9.82,91.58,12278.2,CM_FY2020Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2019,1,Business and government,59.17,7.17,52.0,71579.0,CM_FY2020Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2019,2,Residential mortgages,10.25,0.36,9.9,203524.2,CM_FY2020Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2019,2,Personal,87.13,2.0,85.13,41887.1,CM_FY2020Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2019,2,Credit card,103.31,2.34,100.97,12447.8,CM_FY2020Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2019,2,Business and government,33.0,0.0,33.0,75296.0,CM_FY2020Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2019,3,Residential mortgages,10.24,0.24,10.0,203597.5,CM_FY2020Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2019,3,Personal,79.61,1.61,78.0,42392.0,CM_FY2020Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2019,3,Credit card,104.93,1.93,103.0,12538.4,CM_FY2020Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2019,3,Business and government,28.13,6.13,22.0,75733.0,CM_FY2020Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2019,4,Residential mortgages,10.58,1.75,8.83,204554.5,CM_FY2021Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2019,4,Personal,115.78,14.73,101.06,42317.2,CM_FY2021Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2019,4,Credit card,114.73,16.61,98.11,12585.3,CM_FY2021Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2019,4,Business and government,104.01,15.01,89.0,75295.0,CM_FY2021Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2020,1,Residential mortgages,14.02,1.16,12.86,205410.5,CM_FY2021Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2020,1,Personal,83.65,9.46,74.19,41665.6,CM_FY2021Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2020,1,Credit card,108.1,11.15,96.95,12422.9,CM_FY2021Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2020,1,Business and government,34.46,-2.54,37.0,76638.0,CM_FY2021Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2020,2,Residential mortgages,42.28,27.12,15.16,208606.4,CM_FY2021Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2020,2,Personal,282.73,196.52,86.21,41084.5,CM_FY2021Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2020,2,Credit card,325.13,228.49,96.63,11063.0,CM_FY2021Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2020,2,Business and government,315.16,215.16,100.0,82106.0,CM_FY2021Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2020,3,Residential mortgages,21.46,4.46,17.0,211855.4,CM_FY2021Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2020,3,Personal,102.84,27.84,75.0,40506.5,CM_FY2021Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2020,3,Credit card,77.19,28.19,49.0,11260.1,CM_FY2021Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2020,3,Business and government,140.41,56.41,84.0,77793.0,CM_FY2021Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2020,4,Residential mortgages,0.51,6.51,-6.0,216442.8,CM_FY2022Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2020,4,Personal,74.07,39.07,35.0,40983.2,CM_FY2022Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2020,4,Credit card,91.13,42.13,49.0,11250.0,CM_FY2022Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2020,4,Business and government,32.31,5.31,27.0,77342.0,CM_FY2022Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2021,1,Residential mortgages,3.82,-4.98,8.8,221885.3,CM_FY2022Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2021,1,Personal,25.64,-30.7,56.34,40719.6,CM_FY2022Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2021,1,Credit card,9.59,-28.26,37.85,10510.1,CM_FY2022Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2021,1,Business and government,62.0,-7.0,69.0,78289.0,CM_FY2022Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2021,2,Residential mortgages,19.94,-14.65,34.6,230288.9,CM_FY2022Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2021,2,Personal,-4.24,-51.92,47.69,41054.5,CM_FY2022Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2021,2,Credit card,68.32,-65.4,133.71,10539.6,CM_FY2022Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2021,2,Business and government,-18.91,-25.91,7.0,80331.0,CM_FY2022Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2021,3,Residential mortgages,-6.86,-2.73,-4.13,240385.3,CM_FY2022Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2021,3,Personal,24.56,-10.98,35.54,39723.7,CM_FY2022Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2021,3,Credit card,32.59,-17.0,49.59,10912.0,CM_FY2022Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2021,3,Business and government,-79.8,-61.8,-18.0,83553.0,CM_FY2022Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2021,4,Residential mortgages,16.91,6.11,10.8,246825.0,CM_FY2023Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2021,4,Personal,54.8,19.7,35.1,40426.4,CM_FY2023Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2021,4,Credit card,74.02,29.92,44.1,11080.6,CM_FY2023Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2021,4,Business and government,-30.11,-34.11,4.0,85927.0,CM_FY2023Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2022,1,Residential mortgages,9.62,0.52,9.09,252143.8,CM_FY2023Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2022,1,Personal,46.11,1.57,44.55,41123.7,CM_FY2023Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2022,1,Credit card,49.0,2.63,46.36,11104.5,CM_FY2023Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2022,1,Business and government,-35.67,-20.67,-15.0,91729.0,CM_FY2023Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2022,2,Residential mortgages,44.29,13.8,30.49,257080.0,CM_FY2023Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2022,2,Personal,97.02,45.63,51.4,42489.8,CM_FY2023Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2022,2,Credit card,114.93,54.82,60.11,14931.2,CM_FY2023Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2022,2,Business and government,-5.91,-4.91,-1.0,96009.0,CM_FY2023Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2022,3,Residential mortgages,11.14,7.41,3.72,262798.7,CM_FY2023Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2022,3,Personal,86.77,26.25,60.52,43241.7,CM_FY2023Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2022,3,Credit card,101.09,30.33,70.76,15533.5,CM_FY2023Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2022,3,Business and government,0.52,7.52,-7.0,98829.0,CM_FY2023Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2022,4,Residential mortgages,22.6,11.39,11.21,264374.5,CM_FY2024Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2022,4,Personal,109.5,45.98,63.52,43890.3,CM_FY2024Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2022,4,Credit card,135.3,54.03,81.27,16306.2,CM_FY2024Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2022,4,Business and government,48.34,35.34,13.0,104521.0,CM_FY2024Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2023,1,Residential mortgages,7.72,-2.95,10.66,265529.6,CM_FY2024Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2023,1,Personal,63.33,-13.24,76.57,43339.1,CM_FY2024Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2023,1,Credit card,85.28,-16.49,101.77,16035.3,CM_FY2024Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2023,1,Business and government,38.96,24.96,14.0,106246.0,CM_FY2024Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2023,2,Residential mortgages,25.96,-6.07,32.03,265967.0,CM_FY2024Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2023,2,Personal,59.64,-30.64,90.28,43509.9,CM_FY2024Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2023,2,Credit card,71.41,-38.28,109.69,17006.1,CM_FY2024Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2023,2,Business and government,73.89,37.89,36.0,108734.0,CM_FY2024Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2023,3,Residential mortgages,50.14,19.02,31.12,267237.6,CM_FY2024Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2023,3,Personal,183.1,75.58,107.52,44117.3,CM_FY2024Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2023,3,Credit card,200.52,90.16,110.35,18139.1,CM_FY2024Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2023,3,Business and government,57.73,17.73,40.0,110242.0,CM_FY2024Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2023,4,Residential mortgages,29.19,2.29,26.9,268644.3,CM_FY2025Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2023,4,Personal,124.42,8.87,115.55,44038.6,CM_FY2025Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2023,4,Credit card,126.52,9.97,116.55,18481.1,CM_FY2025Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2023,4,Business and government,25.66,10.66,15.0,108709.0,CM_FY2025Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2024,1,Residential mortgages,38.32,5.79,32.54,268714.2,CM_FY2025Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2024,1,Personal,137.65,20.32,117.33,43946.2,CM_FY2025Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2024,1,Credit card,153.21,22.07,131.13,18528.6,CM_FY2025Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2024,1,Business and government,36.59,10.59,26.0,108518.0,CM_FY2025Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2024,2,Residential mortgages,13.53,-0.47,14.0,268798.4,CM_FY2025Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2024,2,Personal,121.93,-2.07,124.0,44528.8,CM_FY2025Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2024,2,Credit card,143.75,-2.25,146.0,19490.8,CM_FY2025Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2024,2,Business and government,19.06,19.06,0.0,107898.0,CM_FY2025Q4_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2024,3,Residential mortgages,16.45,2.9,13.55,271422.4,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2024,3,Personal,144.92,16.19,128.74,44905.6,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2024,3,Credit card,178.16,18.45,159.71,20164.1,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2024,3,Business and government,70.55,10.55,60.0,108689.0,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2024,4,Residential mortgages,-13.5,-0.55,-12.95,274691.4,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2024,4,Personal,119.05,-4.51,123.56,45215.0,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2024,4,Credit card,162.87,-5.53,168.4,20412.6,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2024,4,Business and government,38.24,3.24,35.0,108650.0,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2025,1,Residential mortgages,26.69,4.9,21.78,276176.9,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2025,1,Personal,162.6,48.73,113.87,44887.7,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2025,1,Credit card,231.11,63.77,167.34,20116.4,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2025,1,Business and government,20.36,1.36,19.0,108701.0,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2025,2,Residential mortgages,23.69,1.07,22.62,277577.4,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2025,2,Personal,159.02,9.56,149.46,45355.9,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2025,2,Credit card,193.47,12.55,180.92,20727.7,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2025,2,Business and government,73.2,32.2,41.0,111388.0,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2025,3,Residential mortgages,56.95,5.95,51.0,280034.9,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2025,3,Personal,142.05,31.05,111.0,45662.5,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2025,3,Credit card,235.13,44.13,191.0,21340.6,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2025,3,Business and government,27.35,-1.65,29.0,112970.0,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2025,4,Residential mortgages,34.04,14.04,20.0,280990.7,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2025,4,Personal,186.88,60.88,126.0,46120.3,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2025,4,Credit card,276.5,88.5,188.0,21591.1,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2025,4,Business and government,24.03,-17.97,42.0,112917.0,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2026,1,Residential mortgages,-15.64,7.98,-23.62,281655.6,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2026,1,Personal,179.29,44.44,134.85,45930.3,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2026,1,Credit card,267.79,65.02,202.77,21251.1,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2026,1,Business and government,89.49,-22.51,112.0,116709.0,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2026,2,Residential mortgages,9.08,4.08,5.0,283077.9,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2026,2,Personal,179.07,28.07,151.0,46262.4,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2026,2,Credit card,273.59,43.59,230.0,22014.7,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2026,2,Business and government,108.32,-6.68,115.0,119694.0,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2026,3,Residential mortgages,39.22,1.8,37.42,284209.4,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2026,3,Personal,150.69,15.77,134.92,46720.9,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2026,3,Credit card,241.83,24.17,217.65,22633.7,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+CM,2026,3,Business and government,100.37,-31.63,132.0,121039.0,CM_FY2026Q3_SFI.xlsx,Loans Canada net + allowance; Stage 3 and Stage 1-2 partly allocated (decisions.md #19)
+NBC,2018,1,Residential mortgages,1.02,0.33,0.7,65067.0,NBC_FY2018Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2018,1,Qualifying revolving retail,23.0,2.0,21.0,4158.0,NBC_FY2018Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2018,1,Other retail,20.98,6.67,14.3,10521.0,NBC_FY2018Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2018,1,Non-retail,13.0,5.0,8.0,47409.0,NBC_FY2018Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2018,2,Residential mortgages,0.93,0.05,0.88,65441.0,NBC_FY2018Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2018,2,Qualifying revolving retail,24.0,2.0,22.0,4145.0,NBC_FY2018Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2018,2,Other retail,20.07,1.95,18.12,10632.0,NBC_FY2018Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2018,2,Non-retail,14.83,8.83,6.0,49906.0,NBC_FY2018Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2018,3,Residential mortgages,0.72,-0.09,0.81,66682.0,NBC_FY2019Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2018,3,Qualifying revolving retail,19.0,-2.0,21.0,4185.0,NBC_FY2019Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2018,3,Other retail,15.28,-1.91,17.19,10599.0,NBC_FY2019Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2018,3,Non-retail,27.83,10.83,17.0,51528.0,NBC_FY2019Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2018,4,Residential mortgages,1.02,0.04,0.98,67567.0,NBC_FY2019Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2018,4,Qualifying revolving retail,20.0,0.0,20.0,4211.0,NBC_FY2019Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2018,4,Other retail,21.98,0.96,21.02,10716.0,NBC_FY2019Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2018,4,Non-retail,9.0,0.0,9.0,53029.0,NBC_FY2019Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2019,1,Residential mortgages,0.84,-0.09,0.93,67905.0,NBC_FY2019Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2019,1,Qualifying revolving retail,22.0,0.0,22.0,4101.0,NBC_FY2019Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2019,1,Other retail,18.16,-1.91,20.07,10301.0,NBC_FY2019Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2019,1,Non-retail,19.74,16.91,2.82,53536.0,NBC_FY2019Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2019,2,Residential mortgages,0.82,-0.09,0.91,68300.0,NBC_FY2019Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2019,2,Qualifying revolving retail,25.0,3.0,22.0,4141.0,NBC_FY2019Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2019,2,Other retail,17.18,-1.91,19.09,10294.0,NBC_FY2019Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2019,2,Non-retail,26.39,7.83,18.57,54890.0,NBC_FY2019Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2019,3,Residential mortgages,1.0,0.17,0.83,69338.0,NBC_FY2020Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2019,3,Qualifying revolving retail,22.0,-1.0,23.0,4120.0,NBC_FY2020Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2019,3,Other retail,17.0,2.83,14.17,10294.0,NBC_FY2020Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2019,3,Non-retail,26.22,11.69,14.53,56631.0,NBC_FY2020Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2019,4,Residential mortgages,1.68,0.27,1.41,70387.0,NBC_FY2020Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2019,4,Qualifying revolving retail,25.0,3.0,22.0,4099.0,NBC_FY2020Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2019,4,Other retail,23.32,3.73,19.59,10156.0,NBC_FY2020Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2019,4,Non-retail,18.15,2.57,15.57,56915.0,NBC_FY2020Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2020,1,Residential mortgages,1.8,0.23,1.58,71165.0,NBC_FY2020Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2020,1,Qualifying revolving retail,25.0,1.0,24.0,3984.0,NBC_FY2020Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2020,1,Other retail,22.2,2.77,19.42,10058.0,NBC_FY2020Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2020,1,Non-retail,28.82,7.9,20.92,57735.0,NBC_FY2020Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2020,2,Residential mortgages,7.78,5.99,1.79,72416.0,NBC_FY2020Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2020,2,Qualifying revolving retail,64.0,41.0,23.0,3600.0,NBC_FY2020Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2020,2,Other retail,83.22,64.01,19.21,9940.0,NBC_FY2020Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2020,2,Non-retail,289.07,228.3,60.77,61914.0,NBC_FY2020Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2020,3,Residential mortgages,2.62,0.75,1.88,73702.0,NBC_FY2021Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2020,3,Qualifying revolving retail,25.0,11.0,14.0,3586.0,NBC_FY2021Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2020,3,Other retail,20.38,6.25,14.12,10071.0,NBC_FY2021Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2020,3,Non-retail,68.91,26.53,42.38,59611.0,NBC_FY2021Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2020,4,Residential mortgages,2.67,0.0,2.67,76310.0,NBC_FY2021Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2020,4,Qualifying revolving retail,6.0,-8.0,14.0,3599.0,NBC_FY2021Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2020,4,Other retail,14.33,-1.0,15.33,10176.0,NBC_FY2021Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2020,4,Non-retail,66.36,26.77,39.59,59921.0,NBC_FY2021Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2021,1,Residential mortgages,0.18,-1.25,1.43,77997.0,NBC_FY2021Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2021,1,Qualifying revolving retail,11.0,1.0,10.0,3358.0,NBC_FY2021Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2021,1,Other retail,-1.18,-5.75,4.57,10193.0,NBC_FY2021Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2021,1,Non-retail,50.63,8.71,41.92,61395.0,NBC_FY2021Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2021,2,Residential mortgages,-0.37,-1.29,0.92,79724.0,NBC_FY2021Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2021,2,Qualifying revolving retail,0.0,-12.0,12.0,3441.0,NBC_FY2021Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2021,2,Other retail,0.37,-5.71,6.08,10410.0,NBC_FY2021Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2021,2,Non-retail,3.67,-33.01,36.68,63641.0,NBC_FY2021Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2021,3,Residential mortgages,-0.35,-0.94,0.59,82216.0,NBC_FY2022Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2021,3,Qualifying revolving retail,-10.0,-20.0,10.0,3483.0,NBC_FY2022Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2021,3,Other retail,-2.65,-7.06,4.41,10657.0,NBC_FY2022Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2021,3,Non-retail,7.95,-7.76,15.7,66724.0,NBC_FY2022Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2021,4,Residential mortgages,-0.18,-0.47,0.29,83751.0,NBC_FY2022Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2021,4,Qualifying revolving retail,-6.0,-16.0,10.0,3589.0,NBC_FY2022Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2021,4,Other retail,-1.82,-7.53,5.71,10805.0,NBC_FY2022Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2021,4,Non-retail,-31.26,-32.02,0.76,68058.0,NBC_FY2022Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2022,1,Residential mortgages,0.22,-1.09,1.31,84881.0,NBC_FY2022Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2022,1,Qualifying revolving retail,11.0,0.0,11.0,3454.0,NBC_FY2022Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2022,1,Other retail,0.78,-3.91,4.69,10734.0,NBC_FY2022Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2022,1,Non-retail,-31.11,-32.23,1.12,71096.0,NBC_FY2022Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2022,2,Residential mortgages,0.35,-1.41,1.76,86188.0,NBC_FY2022Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2022,2,Qualifying revolving retail,9.0,-1.0,10.0,3632.0,NBC_FY2022Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2022,2,Other retail,0.65,-1.59,2.24,11034.0,NBC_FY2022Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2022,2,Non-retail,-13.13,-16.13,3.0,74323.0,NBC_FY2022Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2022,3,Residential mortgages,5.49,2.53,2.96,88013.0,NBC_FY2023Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2022,3,Qualifying revolving retail,15.0,3.0,12.0,3702.0,NBC_FY2023Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2022,3,Other retail,8.51,3.47,5.04,11283.0,NBC_FY2023Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2022,3,Non-retail,0.75,11.76,-11.01,77972.0,NBC_FY2023Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2022,4,Residential mortgages,7.87,2.31,5.55,88839.0,NBC_FY2023Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2022,4,Qualifying revolving retail,17.0,5.0,12.0,3801.0,NBC_FY2023Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2022,4,Other retail,11.13,3.69,7.45,11258.0,NBC_FY2023Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2022,4,Non-retail,35.84,15.35,20.49,80227.0,NBC_FY2023Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2023,1,Residential mortgages,6.14,2.68,3.45,89024.0,NBC_FY2023Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2023,1,Qualifying revolving retail,26.0,11.0,15.0,3664.0,NBC_FY2023Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2023,1,Other retail,9.86,5.32,4.55,11216.0,NBC_FY2023Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2023,1,Non-retail,11.14,20.86,-9.72,82685.0,NBC_FY2023Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2023,2,Residential mortgages,3.65,0.61,3.04,89179.0,NBC_FY2023Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2023,2,Qualifying revolving retail,18.0,2.0,16.0,3825.0,NBC_FY2023Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2023,2,Other retail,8.35,1.39,6.96,11414.0,NBC_FY2023Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2023,2,Non-retail,23.65,12.76,10.89,86572.0,NBC_FY2023Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2023,3,Residential mortgages,6.01,0.95,5.06,90394.0,NBC_FY2024Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2023,3,Qualifying revolving retail,21.0,3.0,18.0,3900.0,NBC_FY2024Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2023,3,Other retail,13.99,3.05,10.94,11645.0,NBC_FY2024Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2023,3,Non-retail,39.39,12.78,26.61,88110.0,NBC_FY2024Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2023,4,Residential mortgages,5.39,1.28,4.11,91052.0,NBC_FY2024Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2023,4,Qualifying revolving retail,24.0,5.0,19.0,4000.0,NBC_FY2024Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2023,4,Other retail,16.61,4.72,11.89,12178.0,NBC_FY2024Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2023,4,Non-retail,40.97,25.12,15.86,90584.0,NBC_FY2024Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2024,1,Residential mortgages,6.77,1.56,5.21,91302.0,NBC_FY2024Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2024,1,Qualifying revolving retail,26.0,4.0,22.0,3922.0,NBC_FY2024Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2024,1,Other retail,19.23,4.44,14.79,12227.0,NBC_FY2024Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2024,1,Non-retail,33.77,18.51,15.26,93556.0,NBC_FY2024Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2024,2,Residential mortgages,7.19,0.96,6.23,92274.0,NBC_FY2024Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2024,2,Qualifying revolving retail,23.0,-1.0,24.0,4004.0,NBC_FY2024Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2024,2,Other retail,22.81,3.04,19.77,12642.0,NBC_FY2024Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2024,2,Non-retail,45.49,9.49,36.0,95109.0,NBC_FY2024Q4_SFIfull.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2024,3,Residential mortgages,4.04,-1.01,5.05,94255.0,NBC_FY2025Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2024,3,Qualifying revolving retail,33.0,9.0,24.0,4065.0,NBC_FY2025Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2024,3,Other retail,15.96,-3.99,19.95,12845.0,NBC_FY2025Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2024,3,Non-retail,45.01,9.73,35.28,97227.0,NBC_FY2025Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2024,4,Residential mortgages,5.93,-0.44,6.37,94963.0,NBC_FY2025Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2024,4,Qualifying revolving retail,39.0,13.0,26.0,4148.0,NBC_FY2025Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2024,4,Other retail,20.07,-2.56,22.63,12993.0,NBC_FY2025Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2024,4,Non-retail,33.45,-1.34,34.78,98781.0,NBC_FY2025Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2025,1,Residential mortgages,8.91,1.27,7.64,96039.0,NBC_FY2025Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2025,1,Qualifying revolving retail,37.0,10.0,27.0,4087.0,NBC_FY2025Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2025,1,Other retail,35.09,5.73,29.36,13040.0,NBC_FY2025Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2025,1,Non-retail,113.74,24.37,89.37,99292.0,NBC_FY2025Q4_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2025,2,Residential mortgages,11.69,5.08,6.61,104758.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2025,2,Qualifying revolving retail,38.0,11.0,27.0,4258.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2025,2,Other retail,33.31,13.92,19.39,13351.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2025,2,Non-retail,398.92,279.0,119.92,131083.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2025,3,Residential mortgages,7.65,1.09,6.56,108890.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2025,3,Qualifying revolving retail,29.0,2.0,27.0,4348.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2025,3,Other retail,28.35,2.91,25.44,13842.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2025,3,Non-retail,91.23,34.11,57.12,131557.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2025,4,Residential mortgages,7.27,-0.64,7.91,111749.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2025,4,Qualifying revolving retail,29.0,0.0,29.0,4454.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2025,4,Other retail,29.73,-0.36,30.09,14234.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2025,4,Non-retail,98.84,7.4,91.44,135604.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2026,1,Residential mortgages,9.08,0.47,8.61,113586.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2026,1,Qualifying revolving retail,37.0,5.0,32.0,4470.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2026,1,Other retail,27.92,0.53,27.39,14033.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2026,1,Non-retail,85.82,-9.76,95.58,135035.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2026,2,Residential mortgages,9.1,1.62,7.48,117147.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2026,2,Qualifying revolving retail,49.0,15.0,34.0,4582.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2026,2,Other retail,36.9,6.38,30.52,14391.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2026,2,Non-retail,89.05,6.92,82.12,138379.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2026,3,Residential mortgages,12.07,1.57,10.49,123526.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2026,3,Qualifying revolving retail,30.0,-1.0,31.0,4748.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2026,3,Other retail,33.93,4.43,29.51,15033.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
+NBC,2026,3,Non-retail,84.8,-15.25,100.05,142159.0,NBC_FY2026Q3_SFI.xlsx,"Loans direct (Canada, Basel category); PCL allocated from segments (decisions.md)"
 RY,2018,1,Residential mortgages,10.76,0.76,10.0,257812.0,RY_FY2019Q4_SFI.xlsx,Stage 3 + loans direct (Canada); Stage 1-2 allocated (decisions.md #17)
 RY,2018,1,HELOC,6.41,0.41,6.0,40492.0,RY_FY2019Q4_SFI.xlsx,Stage 3 + loans direct (Canada); Stage 1-2 allocated (decisions.md #17)
 RY,2018,1,Other personal,115.15,8.15,107.0,41048.0,RY_FY2019Q4_SFI.xlsx,Stage 3 + loans direct (Canada); Stage 1-2 allocated (decisions.md #17)
@@ -209,3 +769,213 @@ RY,2026,3,Other personal,226.48,16.48,210.0,55130.0,RY_FY2026Q3_SFI.xlsx,Stage 3
 RY,2026,3,Credit cards,248.06,18.06,230.0,27409.0,RY_FY2026Q3_SFI.xlsx,Stage 3 + loans direct (Canada); Stage 1-2 allocated (decisions.md #17)
 RY,2026,3,Small business,46.56,2.56,44.0,17145.0,RY_FY2026Q3_SFI.xlsx,Stage 3 + loans direct (Canada); Stage 1-2 allocated (decisions.md #17)
 RY,2026,3,Wholesale,201.52,-11.48,213.0,199509.0,RY_FY2026Q3_SFI.xlsx,Stage 3 + loans direct (Canada); Stage 1-2 allocated (decisions.md #17)
+TD,2018,1,Residential mortgages,0.42,0.42,0.0,190218.0,TD_FY2019Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,1,HELOC,2.22,0.22,2.0,76636.0,TD_FY2019Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,1,Indirect auto,63.36,6.36,57.0,22465.0,TD_FY2019Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,1,Other personal,49.76,4.76,45.0,17889.0,TD_FY2019Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,1,Credit card,136.56,13.56,123.0,17761.0,TD_FY2019Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,1,Business and government,16.67,6.67,10.0,105671.0,TD_FY2019Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,2,Residential mortgages,3.0,0.0,3.0,190066.0,TD_FY2019Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,2,HELOC,-1.0,0.0,-1.0,79350.0,TD_FY2019Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,2,Indirect auto,42.0,0.0,42.0,22794.0,TD_FY2019Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,2,Other personal,40.0,0.0,40.0,17964.0,TD_FY2019Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,2,Credit card,120.0,0.0,120.0,17983.0,TD_FY2019Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,2,Business and government,15.0,0.0,15.0,107162.0,TD_FY2019Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,3,Residential mortgages,2.21,0.21,2.0,191559.0,TD_FY2019Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,3,HELOC,6.19,0.19,6.0,83270.0,TD_FY2019Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,3,Indirect auto,51.94,3.94,48.0,23753.0,TD_FY2019Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,3,Other personal,49.26,3.26,46.0,18319.0,TD_FY2019Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,3,Credit card,120.93,8.93,112.0,17850.0,TD_FY2019Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,3,Business and government,14.47,4.47,10.0,109451.0,TD_FY2019Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,4,Residential mortgages,10.31,0.31,10.0,193829.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,4,HELOC,4.25,0.25,4.0,86159.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,4,Indirect auto,62.25,4.25,58.0,24216.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,4,Other personal,50.69,3.69,47.0,18570.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,4,Credit card,125.76,9.76,116.0,18046.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2018,4,Business and government,14.74,4.74,10.0,104501.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,1,Residential mortgages,8.05,1.05,7.0,193918.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,1,HELOC,1.53,0.53,1.0,87037.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,1,Indirect auto,75.17,10.17,65.0,24109.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,1,Other personal,65.03,9.03,56.0,18159.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,1,Credit card,141.31,22.31,119.0,17953.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,1,Business and government,27.92,11.92,16.0,103906.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,2,Residential mortgages,2.37,0.37,2.0,194692.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,2,HELOC,3.25,0.25,3.0,88192.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,2,Indirect auto,52.92,3.92,49.0,24474.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,2,Other personal,56.6,3.6,53.0,18407.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,2,Credit card,130.35,8.35,122.0,18322.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,2,Business and government,31.52,4.52,27.0,108613.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,3,Residential mortgages,9.64,0.64,9.0,198161.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,3,HELOC,3.25,0.25,3.0,90032.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,3,Indirect auto,58.17,5.17,53.0,25209.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,3,Other personal,63.94,4.94,59.0,18537.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,3,Credit card,131.99,10.99,121.0,18483.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,3,Business and government,55.0,6.0,49.0,110391.0,TD_FY2020Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,4,Residential mortgages,9.65,1.65,8.0,200952.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,4,HELOC,4.7,0.7,4.0,91053.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,4,Indirect auto,86.11,15.11,71.0,25697.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,4,Other personal,73.42,14.42,59.0,18453.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,4,Credit card,158.05,31.05,127.0,18428.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2019,4,Business and government,74.07,18.07,56.0,112600.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,1,Residential mortgages,6.18,1.18,5.0,202330.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,1,HELOC,4.69,0.69,4.0,90942.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,1,Indirect auto,86.17,12.17,74.0,25680.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,1,Other personal,73.48,11.48,62.0,18687.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,1,Credit card,167.22,25.22,142.0,18251.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,1,Business and government,57.26,15.26,42.0,115030.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,2,Residential mortgages,23.22,16.22,7.0,204586.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,2,HELOC,12.39,8.39,4.0,92238.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,2,Indirect auto,237.0,156.0,81.0,25442.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,2,Other personal,200.43,136.43,64.0,18140.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,2,Credit card,453.5,302.5,151.0,15973.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,2,Business and government,355.46,255.46,100.0,127116.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,3,Residential mortgages,30.04,14.04,16.0,207703.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,3,HELOC,21.36,9.36,12.0,92527.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,3,Indirect auto,170.12,111.12,59.0,26690.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,3,Other personal,152.74,94.74,58.0,17730.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,3,Credit card,348.6,215.6,133.0,15859.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,3,Business and government,296.15,196.15,100.0,115154.0,TD_FY2021Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,4,Residential mortgages,-0.25,0.75,-1.0,213239.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,4,HELOC,-2.47,0.53,-3.0,94838.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,4,Indirect auto,12.91,5.91,7.0,27350.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,4,Other personal,48.04,6.04,42.0,18277.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,4,Credit card,118.16,14.16,104.0,15552.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2020,4,Business and government,50.61,12.61,38.0,115472.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,1,Residential mortgages,-2.78,-0.78,-2.0,216732.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,1,HELOC,-1.54,-0.54,-1.0,95452.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,1,Indirect auto,46.19,-6.81,53.0,27225.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,1,Other personal,22.43,-6.57,29.0,19340.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,1,Credit card,58.28,-15.72,74.0,14537.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,1,Business and government,10.42,-13.58,24.0,114844.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,2,Residential mortgages,-3.18,-4.18,1.0,221596.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,2,HELOC,-1.44,-3.44,2.0,97858.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,2,Indirect auto,-1.37,-38.37,37.0,27450.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,2,Other personal,-4.58,-40.58,36.0,18872.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,2,Credit card,-23.71,-93.71,70.0,14438.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,2,Business and government,-35.71,-82.71,47.0,118136.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,3,Residential mortgages,3.48,-0.52,4.0,227606.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,3,HELOC,1.59,-0.41,2.0,100033.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,3,Indirect auto,19.6,-13.4,33.0,27656.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,3,Other personal,16.78,-14.22,31.0,18791.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,3,Credit card,35.44,-32.56,68.0,14964.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,3,Business and government,-8.9,-26.9,18.0,122825.0,TD_FY2022Q4_SFI.pdf,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,4,Residential mortgages,-3.66,-0.66,-3.0,231675.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,4,HELOC,-0.52,-0.52,0.0,101933.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,4,Indirect auto,8.2,-19.8,28.0,27580.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,4,Other personal,13.47,-16.53,30.0,19257.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,4,Credit card,25.19,-35.81,61.0,15149.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2021,4,Business and government,-18.68,-31.68,13.0,122102.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,1,Residential mortgages,-5.73,-0.73,-5.0,236023.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,1,HELOC,8.81,-2.19,11.0,103608.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,1,Indirect auto,16.44,-19.56,36.0,27179.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,1,Other personal,8.9,-18.1,27.0,19548.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,1,Credit card,23.89,-38.11,62.0,15043.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,1,Business and government,-16.3,-35.3,19.0,127949.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,2,Residential mortgages,0.31,-0.69,1.0,240359.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,2,HELOC,-1.8,-1.8,0.0,107555.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,2,Indirect auto,18.4,-18.6,37.0,26936.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,2,Other personal,15.34,-16.66,32.0,19482.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,2,Credit card,34.63,-36.37,71.0,15621.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,2,Business and government,-10.88,-31.88,21.0,129455.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,3,Residential mortgages,-0.95,0.05,-1.0,245619.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,3,HELOC,-1.46,0.54,-2.0,111830.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,3,Indirect auto,39.56,6.56,33.0,27022.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,3,Other personal,37.92,5.92,32.0,18649.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,3,Credit card,79.77,12.77,67.0,16349.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,3,Business and government,24.17,11.17,13.0,136291.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,4,Residential mortgages,1.09,0.09,1.0,246206.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,4,HELOC,3.66,0.66,3.0,113346.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,4,Indirect auto,57.33,7.33,50.0,27187.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,4,Other personal,43.01,6.01,37.0,18448.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,4,Credit card,85.82,12.82,73.0,17375.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2022,4,Business and government,55.09,11.09,44.0,144400.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,1,Residential mortgages,-0.76,0.24,-1.0,246085.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,1,HELOC,2.61,0.61,2.0,113036.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,1,Indirect auto,76.43,21.43,55.0,27219.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,1,Other personal,56.14,17.14,39.0,17933.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,1,Credit card,121.25,36.25,85.0,17126.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,1,Business and government,71.32,30.32,41.0,146406.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,2,Residential mortgages,3.01,0.01,3.0,249311.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,2,HELOC,2.02,0.02,2.0,114112.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,2,Indirect auto,48.6,0.6,48.0,27583.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,2,Other personal,47.5,0.5,47.0,17914.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,2,Credit card,95.02,1.02,94.0,17726.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,2,Business and government,46.85,0.85,46.0,148942.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,3,Residential mortgages,4.73,0.73,4.0,257752.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,3,HELOC,2.82,0.82,2.0,116615.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,3,Indirect auto,76.14,19.14,57.0,28295.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,3,Other personal,64.68,15.68,49.0,18335.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,3,Credit card,125.53,31.53,94.0,18741.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,3,Business and government,96.1,26.1,70.0,154176.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,4,Residential mortgages,3.97,0.97,3.0,263733.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,4,HELOC,2.78,0.78,2.0,117618.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,4,Indirect auto,89.11,22.11,67.0,28786.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,4,Other personal,71.31,18.31,53.0,18587.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,4,Credit card,142.92,36.92,106.0,18815.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2023,4,Business and government,71.91,29.91,42.0,156217.0,TD_FY2023Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,1,Residential mortgages,6.74,0.74,6.0,266316.0,TD_FY2025Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,1,HELOC,2.37,0.37,2.0,117914.0,TD_FY2025Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,1,Indirect auto,108.4,12.4,96.0,28775.0,TD_FY2025Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,1,Other personal,66.53,9.53,57.0,18807.0,TD_FY2025Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,1,Credit card,143.33,19.33,124.0,18999.0,TD_FY2025Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,1,Business and government,93.63,15.63,78.0,158224.0,TD_FY2025Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,2,Residential mortgages,4.08,1.08,3.0,268732.0,TD_FY2025Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,2,HELOC,5.74,0.74,5.0,119235.0,TD_FY2025Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,2,Indirect auto,110.96,20.96,90.0,29039.0,TD_FY2025Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,2,Other personal,72.67,14.67,58.0,19237.0,TD_FY2025Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,2,Credit card,155.36,30.36,125.0,19599.0,TD_FY2025Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,2,Business and government,142.18,27.18,115.0,158643.0,TD_FY2025Q4_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,3,Residential mortgages,-3.17,0.83,-4.0,271325.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,3,HELOC,-2.38,0.62,-3.0,121198.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,3,Indirect auto,123.38,24.38,99.0,29431.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,3,Other personal,74.72,15.72,59.0,19265.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,3,Credit card,150.76,32.76,118.0,20151.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,3,Business and government,136.68,30.68,106.0,161357.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,4,Residential mortgages,3.81,-0.19,4.0,273069.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,4,HELOC,2.86,-0.14,3.0,123036.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,4,Indirect auto,105.32,-5.68,111.0,29837.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,4,Other personal,66.5,-3.5,70.0,19885.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,4,Credit card,127.8,-7.2,135.0,20510.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2024,4,Business and government,138.7,-7.3,146.0,163958.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,1,Residential mortgages,8.58,0.58,8.0,272838.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,1,HELOC,5.5,0.5,5.0,124208.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,1,Indirect auto,132.16,16.16,116.0,30085.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,1,Other personal,82.06,10.06,72.0,20151.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,1,Credit card,169.47,20.47,149.0,20421.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,1,Business and government,130.23,22.23,108.0,165158.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,2,Residential mortgages,2.3,1.3,1.0,270041.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,2,HELOC,1.9,0.9,1.0,128551.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,2,Indirect auto,155.95,43.95,112.0,30627.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,2,Other personal,94.99,26.99,68.0,19735.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,2,Credit card,202.08,55.08,147.0,20993.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,2,Business and government,168.77,65.77,103.0,160325.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,3,Residential mortgages,4.98,0.98,4.0,269135.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,3,HELOC,0.52,0.52,0.0,138046.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,3,Indirect auto,121.09,25.09,96.0,31405.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,3,Other personal,79.8,15.8,64.0,20252.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,3,Credit card,177.16,33.16,144.0,21592.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,3,Business and government,93.45,39.45,54.0,165184.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,4,Residential mortgages,8.48,0.48,8.0,267469.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,4,HELOC,3.21,0.21,3.0,147927.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,4,Indirect auto,126.09,10.09,116.0,32094.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,4,Other personal,81.4,6.4,75.0,21032.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,4,Credit card,177.85,13.85,164.0,21867.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2025,4,Business and government,93.97,14.97,79.0,167458.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2026,1,Residential mortgages,9.17,0.17,9.0,261940.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2026,1,HELOC,5.07,0.07,5.0,156421.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2026,1,Indirect auto,119.47,3.47,116.0,31970.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2026,1,Other personal,77.22,2.22,75.0,21664.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2026,1,Credit card,178.96,4.96,174.0,21934.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2026,1,Business and government,49.1,5.1,44.0,172417.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2026,2,Residential mortgages,10.76,0.76,10.0,254028.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2026,2,HELOC,0.2,0.2,0.0,164231.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2026,2,Indirect auto,117.71,10.71,107.0,32279.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2026,2,Other personal,84.17,7.17,77.0,21228.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2026,2,Credit card,201.42,16.42,185.0,22508.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2026,2,Business and government,106.74,16.74,90.0,175714.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2026,3,Residential mortgages,8.01,1.01,7.0,245012.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2026,3,HELOC,2.3,0.3,2.0,177202.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2026,3,Indirect auto,125.33,13.33,112.0,32991.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2026,3,Other personal,87.02,9.02,78.0,21831.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2026,3,Credit card,209.02,21.02,188.0,23058.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total
+TD,2026,3,Business and government,82.33,22.33,60.0,182267.0,TD_FY2026Q3_SFI.xlsx,Stage 3 + gross loans direct (Canada); Stage 1-2 allocated from Canada total

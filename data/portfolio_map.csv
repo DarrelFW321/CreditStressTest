@@ -5,26 +5,25 @@ RY,Other personal,consumer,Labelled 'Personal' in loans table before FY2019; inc
 RY,Credit cards,consumer,Verified FY2018-FY2026
 RY,Small business,business,Retail small business; reclassification roughly doubled balances in FQ2 2021
 RY,Wholesale,business,Canadian wholesale (business + sovereign + bank)
-TD,Residential mortgages,mortgage,VERIFY label in SFI (Canadian Personal & Commercial)
-TD,HELOC,mortgage,Shown under consumer instalment and other personal; moved to mortgage per PRD
-TD,Indirect auto,consumer,VERIFY
-TD,Other personal,consumer,VERIFY
-TD,Credit card,consumer,VERIFY
-TD,Business and government,business,VERIFY
-BNS,Residential mortgages,mortgage,VERIFY label in SFI (Canada only)
-BNS,Personal loans,consumer,Includes HELOCs not amortizing with mortgage; judgment call
-BNS,Credit cards,consumer,VERIFY
-BNS,Business and government,business,VERIFY
-BMO,Residential mortgages,mortgage,VERIFY label in SFI (Canada only)
-BMO,Consumer instalment and other personal,consumer,Includes HELOCs; judgment call
-BMO,Credit cards,consumer,VERIFY
-BMO,Business and government,business,VERIFY
-CM,Residential mortgages,mortgage,VERIFY label in SFI (Canada only)
-CM,Personal,consumer,Includes HELOCs; judgment call
-CM,Credit card,consumer,VERIFY
-CM,Business and government,business,VERIFY
-NBC,Residential mortgages,mortgage,VERIFY label in SFI
-NBC,Personal,consumer,VERIFY whether HELOCs are separable
-NBC,Credit card,consumer,VERIFY
-NBC,Commercial,business,VERIFY
-NBC,Wholesale,business,VERIFY
+TD,Residential mortgages,mortgage,"Canada column, SFI 'Gross loans and acceptances by industry sector and geographic location'; verified FY2019-FY2026"
+TD,HELOC,mortgage,Disclosed separately under consumer instalment and other personal; grouped with mortgages per PRD
+TD,Indirect auto,consumer,Verified FY2019-FY2026
+TD,Other personal,consumer,SFI label 'Other' under consumer instalment and other personal
+TD,Credit card,consumer,Verified FY2019-FY2026
+TD,Business and government,business,"Canada 'Total business and government' (all industries incl. real estate, government)"
+BNS,Residential mortgages,mortgage,"Canadian Banking segment average balance (SFI p.4); Stage 1-2/3 PCL allocated from Retail; verified FY2018-FY2026"
+BNS,Personal loans,consumer,"Canadian Banking; includes HELOCs not amortizing with a mortgage (judgment call, decisions.md #4)"
+BNS,Credit cards,consumer,"Canadian Banking; includes small-business cards; verified FY2018-FY2026"
+BNS,Business and government,business,"Canadian Banking Commercial (incl. small business); excludes GBM Canadian corporate loans"
+BMO,Residential mortgages,mortgage,"Canada; direct from FQ4 2023 (SFI 'Gross loans ... and geography'), Canadian P&C average x splice before; verified FY2020-FY2026"
+BMO,Consumer instalment and other personal,consumer,"Includes HELOCs (not split by BMO); judgment call, see decisions.md #4"
+BMO,Credit cards,consumer,"Canada; direct from FQ4 2023; includes small-business cards"
+BMO,Business and government,business,"Canada total gross loans less consumer before FQ4 2023; 'Total Business and Government' Canada column after"
+CM,Residential mortgages,mortgage,"Canada, SFI 'Loans and acceptances, net of ACL' (geography columns); verified FY2019-FY2026"
+CM,Personal,consumer,"Includes HELOCs (not split out by CIBC); judgment call, see decisions.md #4"
+CM,Credit card,consumer,Verified FY2019-FY2026; Costco portfolio acquired FQ2 2022 (+34% loans)
+CM,Business and government,business,"Canada total of all industry lines incl. governments and non-residential mortgages; verified FY2019-FY2026"
+NBC,Residential mortgages,mortgage,"Canada, SFI 'Geographic distribution of gross loans' (Basel 1-4 unit residential incl. HELOCs); verified FY2018-FY2026"
+NBC,Qualifying revolving retail,consumer,"Canada QRR (credit cards + unsecured revolving lines); PCL = P&C Credit card segment"
+NBC,Other retail,consumer,"Canada other retail (personal loans, auto etc.); PCL = Personal Banking share + Wealth Management"
+NBC,Non-retail,business,"Canada non-retail (commercial, corporate, SME, 5+ unit residential); CWB acquired FQ2 2025"

@@ -57,18 +57,25 @@ def candidates(bank: str, y: int, q: int) -> list[str]:
                [f"{old}/q{q}{yy}financials-en.pdf"]
     if bank == "NBC":
         base = f"https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/{y}"
-        return [f"{base}/suppack-q{q}-{y}-revised.xlsx", f"{base}/suppack-q{q}-{y}.xlsx",
-                f"{base}/suppack-q{q}-{y}-revised.pdf", f"{base}/suppack-q{q}-{y}.pdf"]
+        # "-revised" files are partial restatements, so the full original comes first
+        return [f"{base}/suppack-q{q}-{y}.xlsx", f"{base}/suppack-q{q}-{y}-revised.xlsx",
+                f"{base}/suppack-q{q}-{y}.pdf", f"{base}/suppack-q{q}-{y}-revised.pdf"]
     raise ValueError(bank)
 
 
-def fetch_one(session: requests.Session, bank: str, y: int, q: int) -> str:
+# National Bank publishes CET1 capital and RWA only in a separate regulatory capital file.
+REGCAP = {"NBC": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/"
+                 "resultats-trimestriels/{y}/suppack-regulatory-capital-q{q}-{y}.xlsx"}
+
+
+def fetch_one(session: requests.Session, bank: str, y: int, q: int, kind: str = "SFI") -> str:
     dest_dir = OUT / bank
     dest_dir.mkdir(parents=True, exist_ok=True)
-    existing = list(dest_dir.glob(f"{bank}_FY{y}Q{q}_SFI.*"))
+    existing = list(dest_dir.glob(f"{bank}_FY{y}Q{q}_{kind}.*"))
     if existing:
         return f"exists  {existing[0].name}"
-    for url in candidates(bank, y, q):
+    urls = candidates(bank, y, q) if kind == "SFI" else [REGCAP[bank].format(y=y, q=q)]
+    for url in urls:
         try:
             r = session.get(url, timeout=60)
         except requests.RequestException:
@@ -76,20 +83,25 @@ def fetch_one(session: requests.Session, bank: str, y: int, q: int) -> str:
         ctype = r.headers.get("content-type", "")
         if r.status_code == 200 and "html" not in ctype and len(r.content) > 10_000:
             ext = url.rsplit(".", 1)[-1].lower()
-            path = dest_dir / f"{bank}_FY{y}Q{q}_SFI.{ext}"
+            path = dest_dir / f"{bank}_FY{y}Q{q}_{kind}.{ext}"
             path.write_bytes(r.content)
             return f"saved   {path.name}  ({len(r.content) / 1e6:.1f} MB)  <- {url}"
         time.sleep(0.3)
     return "MISSING (download manually from the bank's IR site)"
 
 
-def periods(all_quarters: bool) -> list[tuple[int, int]]:
+# Interim packages the extractors need beyond the Q4s (BMO's layout changed mid-year).
+EXTRA = {"BMO": [(2018, 3), (2019, 1), (2019, 2), (2019, 3), (2020, 1), (2020, 2), (2020, 3),
+                 (2021, 3), (2022, 3), (2023, 1)]}
+
+
+def periods(all_quarters: bool, extra: tuple = ()) -> list[tuple[int, int]]:
     out = []
     for y in range(2018, LATEST[0] + 1):
         for q in range(1, 5):
             if (y, q) > LATEST:
                 break
-            if all_quarters or q == 4 or (y, q) == LATEST:
+            if all_quarters or q == 4 or (y, q) == LATEST or (y, q) in extra:
                 out.append((y, q))
     return out
 
@@ -98,8 +110,10 @@ def main(all_quarters: bool = False, banks: list[str] | None = None) -> None:
     session = requests.Session()
     session.headers.update(UA)
     for bank in banks or config.BANKS:
-        for y, q in periods(all_quarters):
+        for y, q in periods(all_quarters, tuple(EXTRA.get(bank, []))):
             print(f"{bank:4} FY{y} Q{q}: {fetch_one(session, bank, y, q)}", flush=True)
+            if bank in REGCAP:
+                print(f"{bank:4} FY{y} Q{q} capital: {fetch_one(session, bank, y, q, 'REGCAP')}", flush=True)
 
 
 if __name__ == "__main__":
