@@ -1,0 +1,30 @@
+bank,segment_label,portfolio,notes
+RY,Residential mortgages,mortgage,"Canada, SFI 'Loans and acceptances by geography' + 'PCL on impaired loans by geography'"
+RY,HELOC,mortgage,Disclosed separately by RBC; grouped with mortgages per PRD
+RY,Other personal,consumer,Labelled 'Personal' in loans table before FY2019; includes auto and other personal loans
+RY,Credit cards,consumer,Verified FY2018-FY2026
+RY,Small business,business,Retail small business; reclassification roughly doubled balances in FQ2 2021
+RY,Wholesale,business,Canadian wholesale (business + sovereign + bank)
+TD,Residential mortgages,mortgage,VERIFY label in SFI (Canadian Personal & Commercial)
+TD,HELOC,mortgage,Shown under consumer instalment and other personal; moved to mortgage per PRD
+TD,Indirect auto,consumer,VERIFY
+TD,Other personal,consumer,VERIFY
+TD,Credit card,consumer,VERIFY
+TD,Business and government,business,VERIFY
+BNS,Residential mortgages,mortgage,VERIFY label in SFI (Canada only)
+BNS,Personal loans,consumer,Includes HELOCs not amortizing with mortgage; judgment call
+BNS,Credit cards,consumer,VERIFY
+BNS,Business and government,business,VERIFY
+BMO,Residential mortgages,mortgage,VERIFY label in SFI (Canada only)
+BMO,Consumer instalment and other personal,consumer,Includes HELOCs; judgment call
+BMO,Credit cards,consumer,VERIFY
+BMO,Business and government,business,VERIFY
+CM,Residential mortgages,mortgage,VERIFY label in SFI (Canada only)
+CM,Personal,consumer,Includes HELOCs; judgment call
+CM,Credit card,consumer,VERIFY
+CM,Business and government,business,VERIFY
+NBC,Residential mortgages,mortgage,VERIFY label in SFI
+NBC,Personal,consumer,VERIFY whether HELOCs are separable
+NBC,Credit card,consumer,VERIFY
+NBC,Commercial,business,VERIFY
+NBC,Wholesale,business,VERIFY

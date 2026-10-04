@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+# Bank supplementary packages are large; keep the hand-collected CSVs, not the source Excel/PDFs
+data/raw/banks/packages/
